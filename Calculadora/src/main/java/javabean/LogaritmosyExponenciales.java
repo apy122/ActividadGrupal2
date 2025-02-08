@@ -47,7 +47,7 @@ public class LogaritmosyExponenciales {
      * Método para ejecutar el menú para realizar los calculos logaritmicos y exponencial.
      */
 
-    public static void main(String[] args) {//Objeto Scanner para leer la entrada del usuari.
+    public static void menu() {//Objeto Scanner para leer la entrada del usuari.
         Scanner sc = new Scanner(System.in);
         char opcion; //variable para almacenar la opcion del usuario
         boolean continuar = true; // Controla el bucle para repetir el menu hasta que el ususario dedida salir.
