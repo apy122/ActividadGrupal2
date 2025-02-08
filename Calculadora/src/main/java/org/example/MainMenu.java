@@ -57,8 +57,7 @@ public class MainMenu {
                     LogaritmosyExponenciales.menu();
                     break;
                 default:
-                    System.out.println("Opción no valida");
-
+                    throw new NumberFormatException("Opcion no valida");
             }
         }while(sc.nextInt() !=0);
         }
