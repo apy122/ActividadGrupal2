@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ActividadGrupal2.iml" filepath="$PROJECT_DIR$/.idea/ActividadGrupal2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" />
     </modules>
   </component>
