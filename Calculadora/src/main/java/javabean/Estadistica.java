@@ -13,8 +13,8 @@ import java.util.Scanner;
  *  System.out.println("La Desviación Estándar de los números es:" + Estadistica.desviacionEstandar(numeros));
  * }</pre>
  *
- * @author Lucia Ramirez Verdu (aka lucia.ramirez491@comunidadunir.net)
- * @version 1.0
+ * @author Lucía Ramírez Verdú (aka lucia.ramirez491@comunidadunir.net - lrv491)
+ * @version 1.1
  */
 
 public class Estadistica {
