@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="anadiendo paquete de testing">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Añadido JavaDoc en la clase Estadistica">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Estadistica.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Estadistica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +35,25 @@
     &quot;assignee&quot;: &quot;apy122&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/apy122/ActividadGrupal2.git&quot;,
-    &quot;accountId&quot;: &quot;53ecd6cd-19ab-4d83-ae23-f24c14556cd0&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:apy122/ActividadGrupal2.git",
+    "accountId": "31c33509-6213-4a4c-b3f4-96d600b381a3"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "apy122",
+    "repository": "ActividadGrupal2"
   }
-}</component>
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -51,11 +64,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Estadistica.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "#3 on Lucia",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/lucia/IdeaProjects/JavaDocEj",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +79,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,8 +97,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
       </set>
     </attachedChunks>
   </component>
@@ -97,6 +113,7 @@
       <workItem from="1739014201061" duration="125000" />
       <workItem from="1739014372302" duration="428000" />
       <workItem from="1739016233711" duration="252000" />
+      <workItem from="1739017130268" duration="7848000" />
     </task>
     <task id="LOCAL-00001" summary="anadiendo paquete de testing">
       <option name="closed" value="true" />
@@ -130,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739014745851</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Estructura añadida de la clase Estadistica">
+      <option name="closed" value="true" />
+      <created>1739021911480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739021911480</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Añadido JavaDoc en la clase Estadistica">
+      <option name="closed" value="true" />
+      <created>1739023878838</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739023878838</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +171,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="anadiendo paquete de testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="anadiendo paquete de testing" />
+    <MESSAGE value="Estructura añadida de la clase Estadistica" />
+    <MESSAGE value="Añadido JavaDoc en la clase Estadistica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadido JavaDoc en la clase Estadistica" />
   </component>
 </project>
