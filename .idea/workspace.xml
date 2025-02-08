@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="anadiendo paquete de testing">
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Estructura añadida de la clase Estadistica">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Estadistica.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Estadistica.java" afterDir="false" />
     </list>
@@ -57,6 +57,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "Lucia",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/lucia/IdeaProjects/JavaDocEj",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,7 +100,7 @@
       <workItem from="1739014201061" duration="125000" />
       <workItem from="1739014372302" duration="428000" />
       <workItem from="1739016233711" duration="252000" />
-      <workItem from="1739017130268" duration="4290000" />
+      <workItem from="1739017130268" duration="5874000" />
     </task>
     <task id="LOCAL-00001" summary="anadiendo paquete de testing">
       <option name="closed" value="true" />
@@ -133,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739014745851</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Estructura añadida de la clase Estadistica">
+      <option name="closed" value="true" />
+      <created>1739021911480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739021911480</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="anadiendo paquete de testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="anadiendo paquete de testing" />
+    <MESSAGE value="Estructura añadida de la clase Estadistica" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estructura añadida de la clase Estadistica" />
   </component>
 </project>

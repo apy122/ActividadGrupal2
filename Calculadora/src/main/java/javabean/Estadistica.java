@@ -1,7 +1,32 @@
 package javabean;
 import java.util.Scanner;
+
+/**
+ * La clase Estadística forma parte de una calculadora.
+ * Contiene métodos pertenecientes a las ramas de la estadística.
+ *
+ * <p>Ejemplo de uso:</p>
+ * <pre>{@code
+ *  double[] numeros = {1,2,3,4,5};
+ *  System.out.println("La Media de los números es:" + Estadistica.mediaAritmetica(numeros));
+ *  System.out.println("La Varianza de los números es:" + Estadistica.varianza(numeros));
+ *  System.out.println("La Desviación Estándar de los números es:" + Estadistica.desviacionEstandar(numeros));
+ * }</pre>
+ *
+ * @author Lucia Ramirez Verdu (aka lucia.ramirez491@comunidadunir.net)
+ * @version 1.0
+ */
+
 public class Estadistica {
     private static Scanner sc = new Scanner(System.in);
+
+    /**
+     * Hace la media aritmética de un array de double
+     *
+     * @param numeros array de double, debe de haber al menos un número.
+     * @throws IllegalArgumentException si el array está vacío.
+     * @return La solución de la media aritmética
+     */
 
     public static double mediaAritmetica(double[] numeros){
         if(numeros.length == 0)
@@ -15,6 +40,14 @@ public class Estadistica {
         return media/numeros.length;
     }
 
+    /**
+     * Hace la varianza de un array de double
+     *
+     * @param numeros array de double, debe de haber al menos un número.
+     * @throws IllegalArgumentException si el array está vacío.
+     * @return La solución de la varianza
+     */
+
     public static double varianza(double[] numeros){
         if(numeros.length == 0)
             throw new IllegalArgumentException("El array de numeros no puede ser nulo");
@@ -26,6 +59,14 @@ public class Estadistica {
         }
         return var/numeros.length;
     }
+
+    /**
+     * Hace la desviación estándar de un array de double
+     *
+     * @param numeros array de double, debe de haber al menos un número.
+     * @throws IllegalArgumentException si el array está vacío.
+     * @return La solución de la desviación estándar
+     */
 
     public static double desviacionEstandar(double[] numeros){
         if(numeros.length == 0)
@@ -48,7 +89,12 @@ public class Estadistica {
         return arrayNuevo;
     }
 
-    public static void menu() {
+    /**
+     * Es un menú para que el usuario pueda utilizar y saber que tipo de operaciones puede usar,
+     * o que tipo de operaciones están implementadas.
+     */
+
+    public static void main() {
         boolean continuar = true;
         double[] numeros;
         System.out.println("ESTADÍSTICA");
