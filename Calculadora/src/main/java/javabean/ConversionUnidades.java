@@ -8,15 +8,15 @@ import java.util.*;
 public class ConversionUnidades {
     private ArrayList menu;
     private Scanner scanner;
-
+    /**Constructor sin parametros*/
     public ConversionUnidades() {
     }
-
+    /**Constructor con parametros*/
     public ConversionUnidades(ArrayList menu, Scanner scanner) {
         this.menu = menu;
         this.scanner = scanner;
     }
-
+    /**Get and set*/
     public ArrayList getMenu() {
         return menu;
     }
@@ -32,7 +32,7 @@ public class ConversionUnidades {
     public void setScanner(Scanner scanner) {
         this.scanner = scanner;
     }
-
+    /**To String*/
     @java.lang.Override
     public java.lang.String toString() {
         return "ConversionUnidades{" +
@@ -47,7 +47,7 @@ public class ConversionUnidades {
      * @param  radiales unidad en radiales
      * @param  Grados unidad en grados
      *@param opcion elegir el tipo de conversion(
-     *             1. con "1. Celsius a Fahrenheit
+     *             1. Celsius a Fahrenheit
      *             2. Fahrenheit a Celsius
      *             3. Grados a Radianes
      *             4. Radianes a Grados
