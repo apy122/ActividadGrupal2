@@ -84,7 +84,7 @@ public class ConversionUnidades{
      *             5. Salir)
      */
 
-    public void mostratMenu(int opcion){
+    public void menu(int opcion){
         do{
             System.out.println("\n--- Conversor de Unidades ---");
             menu= Arrays.asList(

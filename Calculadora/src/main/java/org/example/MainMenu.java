@@ -3,25 +3,29 @@ package org.example;
 import javabean.ConversionUnidades;
 import javabean.LogaritmosyExponenciales;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 public class MainMenu {
-    public static ConversionUnidades conversionUnidades = new ConversionUnidades();
+    public static ConversionUnidades conv1 = new ConversionUnidades();
+    public static ArrayList<String> menuGeneral;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         char opcion;
 
         do {
             System.out.println("Que quieres hacer?");
-            System.out.println("1. SUMAR");
-            System.out.println("2. RESTAR");
-            System.out.println("3. MULTIPLICAR");
-            System.out.println("4. DIVIDIR");
-            System.out.println("5. CALCULAR MODULO");
-            System.out.println("6. CONVERSION DE UNIDADES");
-            System.out.println("7. ESTADISTICA");
-            System.out.println("8. TRIGONOMETRIA");
-            System.out.println("9. CALCULO LOGARITMICO Y EXPONENCIAL");
-            System.out.println("0. SALIR");
+            menuGeneral= (ArrayList<String>) Arrays.asList(
+                    "1. SUMAR",
+                    "2. RESTAR",
+                    "3. MULTIPLICAR",
+                    "4. DIVIDIR",
+                    "5. CALCULAR MODULO",
+                    "6. CONVERSION DE UNIDADES",
+                    "7. ESTADISTICA",
+                    "8. TRIGONOMETRIA",
+                    "9. CALCULO LOGARITMICO Y EXPONENCIAL",
+                    "0. SALIR");
 
             opcion = sc.next().charAt(0);
             switch (opcion) {
@@ -41,7 +45,7 @@ public class MainMenu {
                     Modulo.menu();
                     break;
                 case'6':
-                    ConversionUnidades.menu();
+                    Conv1.menu();
                     break;
                 case'7':
                     Estadistica.menu();
