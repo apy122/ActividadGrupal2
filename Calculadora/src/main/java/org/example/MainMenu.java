@@ -1,10 +1,11 @@
 package org.example;
 
+import javabean.ConversionUnidades;
 import javabean.LogaritmosyExponenciales;
 
 import java.util.Scanner;
-
 public class MainMenu {
+    public static ConversionUnidades conversionUnidades = new ConversionUnidades();
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         char opcion;

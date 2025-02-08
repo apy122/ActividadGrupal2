@@ -5,13 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Añadido JavaDoc en la clase Estadistica">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Estadistica.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Estadistica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/ConversionUnidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/ConversionUnidades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/org/example/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/org/example/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/src/test/java/javabean/LogaritmosyExponencialesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/test/java/javabean/LogaritmosyExponencialesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Calculadora" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,8 +57,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "git@github.com:apy122/ActividadGrupal2.git",
-    "accountId": "31c33509-6213-4a4c-b3f4-96d600b381a3"
+    "url": "https://github.com/apy122/ActividadGrupal2.git",
+    "accountId": "53ecd6cd-19ab-4d83-ae23-f24c14556cd0"
   },
   "recentNewPullRequestHead": {
     "server": {
@@ -65,10 +85,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Estadistica.executor": "Run",
+    "Gradle.Calculadora [:ConversionUnidades.main()].executor": "Run",
+    "Gradle.Calculadora [:org.example.MainMenu.main()].executor": "Run",
+    "Gradle.LogaritmosyExponencialesTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "#3 on Lucia",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lucia/IdeaProjects/JavaDocEj",
     "node.js.detected.package.eslint": "true",
@@ -79,26 +102,15 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "editor.preferences.folding",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -114,6 +126,7 @@
       <workItem from="1739014372302" duration="428000" />
       <workItem from="1739016233711" duration="252000" />
       <workItem from="1739017130268" duration="7848000" />
+      <workItem from="1739047599179" duration="2300000" />
     </task>
     <task id="LOCAL-00001" summary="anadiendo paquete de testing">
       <option name="closed" value="true" />
@@ -173,6 +186,7 @@
     <MESSAGE value="anadiendo paquete de testing" />
     <MESSAGE value="Estructura añadida de la clase Estadistica" />
     <MESSAGE value="Añadido JavaDoc en la clase Estadistica" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido JavaDoc en la clase Estadistica" />
+    <MESSAGE value="realizando el testing de la clase logaritmos y exponenciales" />
+    <option name="LAST_COMMIT_MESSAGE" value="realizando el testing de la clase logaritmos y exponenciales" />
   </component>
 </project>

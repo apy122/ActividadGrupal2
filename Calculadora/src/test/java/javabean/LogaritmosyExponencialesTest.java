@@ -17,7 +17,8 @@ class LogaritmosyExponencialesTest {
 
     @Test
     void setUp() {
-        log1= new LogaritmosyExponencialesTest();
+
+        log1= new LogaritmosyExponenciales();
     }
     /*primer caso numero natural de e es 1*/
     @Test
