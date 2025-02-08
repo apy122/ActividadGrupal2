@@ -23,7 +23,7 @@ public class ConversionUnidades {
                 case 1:
                     System.out.print("Ingrese los grados celsius");
                     double celsius= Scanner.next.Double();
-                    ConversionCelsiusFahrenheit(celsius)
+                    double farenheit ConversionCelsiusFahrenheit(celsius)
                     System.out.print("Resultado="+" "+ farenheit );
             }
 
