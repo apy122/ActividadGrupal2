@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class ConversionUnidades{
     private List<String> menu;
     private double celsius, fahrenheit, grados, radianes;
-    private Scanner scanner;
+    private Scanner scanner=new Scanner(System.in);
 
     /**Constructor sin parametros*/
     public ConversionUnidades() {
@@ -100,25 +100,25 @@ public class ConversionUnidades{
         switch (opcion){
             case 1:
                 System.out.print( "Ingrese los grados celsius" );
-                celsius = Scanner.next.Double( );
-                farenheit = ConversionCelsiusFahrenheit(celsius);
+                celsius = scanner.nextDouble();
+                fahrenheit = ConversionCelsiusFahrenheit(celsius);
                 System.out.print( "Resultado=" + " " + fahrenheit);
                 break;
             case 2:
                 System.out.print( "Ingrese los grados farenheit" );
-                farenheit = Scanner.next.Double( );
+                fahrenheit = scanner.nextDouble( );
                 celsius = ConversionFahrenheitCelsius( fahrenheit);
                 System.out.print( "Resultado=" + " " + celsius );
                 break;
             case 3:
                 System.out.print( "Ingrese los grados" );
-                grados = Scanner.next.Double( );
-                radiales = ConversionGradosRadianes( grados);
-                System.out.print( "Resultado=" + " " + radiales );
+                grados = scanner.nextDouble( );
+                radianes = ConversionGradosRadianes( grados);
+                System.out.print( "Resultado=" + " " + radianes );
                 break;
             case 4:
                 System.out.print( "Ingrese los radiales" );
-                radiales = Scanner.next.Double( );
+                radianes = scanner.nextDouble( );
                 grados = ConversionRadianesCelsius(radianes);
                 System.out.print( "Resultado=" + " " + grados );
                 break;

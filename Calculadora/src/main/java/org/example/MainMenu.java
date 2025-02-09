@@ -30,28 +30,28 @@ public class MainMenu {
             opcion = sc.next().charAt(0);
             switch (opcion) {
                 case '1':
-                    Suma.menu();
+                    /*Suma.menu();*/
                     break;
                 case '2':
-                    Resta.menu();
+                    /*Resta.menu();*/
                     break;
                 case '3':
-                    Producto.menu();
+                    /*Producto.menu();*/
                     break;
                 case '4':
-                    Cociente.menu();
+                    /*Cociente.menu();*/
                     break;
                 case '5':
-                    Modulo.menu();
+                    /*Modulo.menu();*/
                     break;
                 case'6':
-                    Conv1.menu();
+                    /*Conv1.menu();*/
                     break;
                 case'7':
-                    Estadistica.menu();
+                    /*Estadistica.menu();*/
                     break;
                 case'8':
-                    Trigonometria.menu();
+                    /*Trigonometria.menu();*/
                     break;
                 case '9':
                     LogaritmosyExponenciales.menu();
