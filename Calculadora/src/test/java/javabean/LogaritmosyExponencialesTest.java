@@ -13,7 +13,6 @@ class LogaritmosyExponencialesTest {
     public void setUp() {
         log1=new LogaritmosyExponenciales();
     }
-    /*primer caso numero natural de e es 1*/
     @Test
     public void logaritmoNatural() {
         assertEquals(1, LogaritmosyExponenciales.logaritmoNatural(Math.E), 1e-6);
