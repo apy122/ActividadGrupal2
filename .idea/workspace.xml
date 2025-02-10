@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="modxificando cosas de conversionUnidades">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Suma.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Suma.java" afterDir="false" />
-    </list>
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +126,7 @@
       <workItem from="1739047599179" duration="4302000" />
       <workItem from="1739100247182" duration="926000" />
       <workItem from="1739101238141" duration="2000" />
-      <workItem from="1739184913096" duration="413000" />
+      <workItem from="1739184913096" duration="734000" />
     </task>
     <task id="LOCAL-00001" summary="anadiendo paquete de testing">
       <option name="closed" value="true" />
@@ -219,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739101091149</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;">
+      <option name="closed" value="true" />
+      <created>1739185565126</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739185565126</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +236,7 @@
     <MESSAGE value="realizando el testing de la clase logaritmos y exponenciales" />
     <MESSAGE value="Añadido JavaDoc en la clase Estadistica" />
     <MESSAGE value="modxificando cosas de conversionUnidades" />
-    <option name="LAST_COMMIT_MESSAGE" value="modxificando cosas de conversionUnidades" />
+    <MESSAGE value="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;" />
   </component>
 </project>
