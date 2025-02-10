@@ -25,7 +25,7 @@ public class Estadistica {
      *
      * @param numeros array de double, debe de haber al menos un número.
      * @throws IllegalArgumentException si el array está vacío.
-     * @return La solución de la media aritmética
+     * @return La solución de la media aritmética.
      */
 
     public static double mediaAritmetica(double[] numeros){
@@ -45,7 +45,8 @@ public class Estadistica {
      *
      * @param numeros array de double, debe de haber al menos un número.
      * @throws IllegalArgumentException si el array está vacío.
-     * @return La solución de la varianza
+     * @throws IllegalArgumentException si el array tiene algún número negativo..
+     * @return La solución de la varianza.
      */
 
     public static double varianza(double[] numeros){
@@ -55,6 +56,8 @@ public class Estadistica {
         double media = mediaAritmetica(numeros);
         double var = 0;
         for(double num : numeros){
+            if(num < 0)
+                throw new IllegalArgumentException("El numero no puede ser negativo");
             var += Math.pow(num - media, 2);
         }
         return var/numeros.length;
