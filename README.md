@@ -1,4 +1,5 @@
-Creación de una actividad grupal en la que se creará una Calculadora.
+Repositorio de una actividad grupal en la que se creará una Calculadora.
+
 Esta calculadora realizará las siguientes operaciones:
 - Suma.
 - Resta.
