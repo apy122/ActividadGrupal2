@@ -14,7 +14,7 @@ import java.util.Scanner;
  * }</pre>
  *
  * @author Lucía Ramírez Verdú (aka lucia.ramirez491@comunidadunir.net - lrv491)
- * @version 1.1
+ * @version 1.2
  */
 
 public class Estadistica {
@@ -94,7 +94,7 @@ public class Estadistica {
      * o que tipo de operaciones están implementadas.
      */
 
-    public static void main() {
+    public static void menu() {
         boolean continuar = true;
         double[] numeros;
         System.out.println("ESTADÍSTICA");
