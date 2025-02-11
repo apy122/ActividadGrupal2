@@ -5,9 +5,10 @@ import java.util.Scanner;
 /** Clase Módulo dentro de la Calculadora grupal.
  * <p>Ejemplo de uso</p>
  * @author David Sánchez
- * @version 3.0
+ * @version 4.0
  * V. 2 Corregida función "modulo", sustituyendo return por throw new en la excepción.
  * V. 3. Inserté static en las funciones "módulo" y "vAbsolut" para poder incluirla en el menú
+ * V. 4. No logré usar la excepción. Modifico el mét_odo 1 y añado un return 0 y un mensaje.
  */
 
 public class Modulo {
@@ -25,7 +26,8 @@ public class Modulo {
     public static int modulo(int a, int b){
 
         if(b==0){
-            throw new ArithmeticException("El divisor no puede ser cero");
+            System.out.println("El divisor no puede ser cero");
+            return 0;
         }
         return a % b;
     }
