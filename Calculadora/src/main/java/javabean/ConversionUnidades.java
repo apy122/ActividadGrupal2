@@ -76,15 +76,10 @@ public class ConversionUnidades{
     }
 
     /**Muestra el menu y ejecucuion de cada opcion
-     *@param opcion elegir el tipo de conversion(
-     *             1. Celsius a Fahrenheit
-     *             2. Fahrenheit a Celsius
-     *             3. Grados a Radianes
-     *             4. Radianes a Grados
-     *             5. Salir)
      */
 
-    public void menu(int opcion){
+    public void menu(){
+        int opcion= scanner.nextInt();
         if (opcion <1 || opcion > menu.size()){
             throw new IllegalArgumentException("Opcion no valida");
         }else{
@@ -162,5 +157,7 @@ public class ConversionUnidades{
         return grados;
 
     }
-    }
+
+
+}
 
