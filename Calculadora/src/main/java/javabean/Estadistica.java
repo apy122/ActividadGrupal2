@@ -28,7 +28,7 @@ public class Estadistica {
      * @return La solución de la media aritmética
      */
 
-    public static double mediaAritmetica(double[] numeros){
+    public static double mediaAritmetica(double numeros){
         if(numeros.length == 0)
             throw new IllegalArgumentException("El array de numeros no puede ser nulo");
 
