@@ -120,8 +120,6 @@ public class ConversionUnidades{
                     grados = ConversionRadianesCelsius(radianes);
                     System.out.print( "Resultado=" + " " + grados );
                     break;
-                case 5:
-                    break;
             }
         }
 
