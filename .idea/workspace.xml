@@ -4,11 +4,86 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Añadido JavaDoc en la clase Estadistica" />
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Añadido JavaDoc en la clase Estadistica">
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/Cociente.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/Cociente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/CocienteTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/CocienteTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/ConversionUnidades.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/ConversionUnidades.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/ConversionUnidadesTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/ConversionUnidadesTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/Estadistica.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/Estadistica.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/EstadisticaTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/EstadisticaTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/LogaritmosyExponenciales.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/LogaritmosyExponenciales.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/LogaritmosyExponencialesTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/LogaritmosyExponencialesTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/Modulo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/Modulo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/ModuloTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/ModuloTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/Producto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/Producto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/ProductoTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/ProductoTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/Resta.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/Resta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/RestaTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/RestaTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/Suma.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/Suma.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/SumaTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/SumaTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/Trigonometria.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/Trigonometria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/TrigonometriaTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/TrigonometriaTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/Cociente.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/Cociente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/CocienteTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/CocienteTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/ConversionUnidades.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/ConversionUnidades.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/ConversionUnidadesTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/ConversionUnidadesTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/Estadistica.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/Estadistica.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/EstadisticaTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/EstadisticaTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/LogaritmosyExponenciales.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/LogaritmosyExponenciales.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/LogaritmosyExponencialesTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/LogaritmosyExponencialesTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/Modulo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/Modulo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/ModuloTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/ModuloTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/Producto.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/Producto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/ProductoTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/ProductoTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/Resta.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/Resta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/RestaTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/RestaTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/Suma.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/Suma.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/SumaTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/SumaTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/Trigonometria.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/Trigonometria.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/class-use/TrigonometriaTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/class-use/TrigonometriaTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/javabean/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/javabean/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/legal/jquery.md" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/legal/jquery.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/legal/jqueryUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/legal/jqueryUI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/org/example/MainMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/example/MainMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/org/example/class-use/MainMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/example/class-use/MainMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/org/example/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/example/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/org/example/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/example/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/org/example/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/org/example/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/script-dir/jquery-3.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/script-dir/jquery-3.7.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/script-dir/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doc/script-dir/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/script-dir/jquery-ui.min.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/Calculadora">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,7 +140,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lucia",
+    "git-widget-placeholder": "LorenaSanchezErroz",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lucia/IdeaProjects/JavaDocEj",
     "node.js.detected.package.eslint": "true",
