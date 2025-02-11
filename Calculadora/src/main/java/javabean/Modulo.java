@@ -15,12 +15,11 @@ public class Modulo {
 
     /**
      * Esta clase tiene dos funciones:
-     *
      * 1º Cálculo del módulo de dos números enteros. (Residuo de una división entera).
      * @param a es el dividendo.
      * @param b es el divisor.
-     * @return devuelve el residuo de la división entera.
-     * @throws IllegalArgumentException si el divisor es 0.
+     * @return 0 a través de if si el divisor es 0, y el módulo si el divisor es correcto.
+     * He implementado un if y return por no poder usar la excepción.
      */
 
     public static int modulo(int a, int b){
@@ -34,7 +33,7 @@ public class Modulo {
 
     /**
      * 2ª Función. Cálculo del valor absoluto de un número.
-     * @param a el numero del que queremos calcular el valor absoluto.
+     * @param a el número del que queremos calcular el valor absoluto.
      * @return valor absoluto de a.
      * Como los valores absolutos son siempre positivos, añadimos un if.
      */
@@ -94,5 +93,4 @@ public class Modulo {
             }
         }while (opcion != 3);
     }
-
 }
