@@ -51,7 +51,7 @@ public class Resta {
      * @return Resultado de la resta de todos los parámetros introducidos.
      */
     public double restaAcumulada(double a) {
-        double acumulada = a++;
+        double acumulada = a--;
         return acumulada;
     }
 
