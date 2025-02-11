@@ -26,6 +26,21 @@ public class Modulo {
         return a%b;
     }
 
+    /**
+     * 2ª Función. Cálculo del valor absoluto de un número.
+     * @param a el numero del que queremos calcular el valor absoluto.
+     * @return valor absoluto de a.
+     * Como los valores absolutos son siempre positivos, añadimos un if.
+     */
+
+    public double vAbsoluto(double a){
+        if (a >= 0){
+            return a;
+        }
+        return -a;
+
+    }
+    
 
 
 }
