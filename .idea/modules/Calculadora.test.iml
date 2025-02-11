@@ -5,10 +5,11 @@
       <sourceFolder url="file://$MODULE_DIR$/../../Calculadora/src/test/java" isTestSource="true" />
     </content>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_21">
+  <component name="NewModuleRootManager">
     <output-test url="file://$MODULE_DIR$/../../Calculadora/build/classes/java/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../Calculadora/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../Calculadora/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Calculadora/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Calculadora/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../Calculadora/src/test/java" isTestSource="true" />
