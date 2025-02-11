@@ -93,28 +93,25 @@ public class Resta {
                     System.out.println("Introduce dos números reales para realizar la resta: ");
                     double restReal1 = leer.nextDouble();
                     double restReal2 = leer.nextDouble();
-                    double resuRestReal = restReal1 - restReal2;
-                    System.out.println("El resultado de la resta es: " + resuRestReal);
+                    System.out.println("El resultado de la resta es: " + resta.restaReal(restReal1, restReal2));
                     break;
                 case 2:
                     System.out.println("Introduce dos números enteros para realizar la resta");
                     int restEntero1 = leer.nextInt();
                     int restEntero2 = leer.nextInt();
-                    int resuRestEnt = restEntero1 - restEntero2;
-                    System.out.println("El resultado de la resta es: " + resuRestEnt);
+                    System.out.println("El resultado de la resta es: " + resta.restaEntero(restEntero1, restEntero2));
                     break;
                 case 3:
                     System.out.println("Introduce tres números reales para realizar la resta");
                     double restReal3 = leer.nextDouble();
                     double restReal4 = leer.nextDouble();
                     double restReal5 = leer.nextDouble();
-                    double resuRestaReal = restReal3 - restReal4 - restReal5;
-                    System.out.println("El resultado de la resta es: " + resuRestaReal);
+                    System.out.println("El resultado de la resta es: " + resta.restaTresReal(restReal3, restReal4, restReal5));
                     break;
                 case 4:
                     System.out.println("Introduce los números que quieras restar");
-                    double restAcumulada = leer.nextDouble();
-                    System.out.println("La resta de todos los números es: " + restAcumulada);
+                    double restAcum = leer.nextDouble();
+                    System.out.println("La resta de todos los números es: " + resta.restaAcumulada(restAcum));
                     break;
             }
 
