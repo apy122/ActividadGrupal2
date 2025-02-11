@@ -1,21 +1,24 @@
 package org.example;
 
-import javabean.ConversionUnidades;
-import javabean.LogaritmosyExponenciales;
+import javabean.*;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 public class MainMenu {
-    public static ConversionUnidades conv1 = new ConversionUnidades();
-    public static ArrayList<String> menuGeneral;
+    public static List<String> menuGeneral;
+    public static Scanner sc = new Scanner(System.in);
+    public static ConversionUnidades conv= new ConversionUnidades( );
     public static void main(String[] args) {
+        mainMenu();
+    }
+
+    public static void mainMenu() {
         Scanner sc = new Scanner(System.in);
         char opcion;
 
         do {
-            System.out.println("Que quieres hacer?");
-            menuGeneral= (ArrayList<String>) Arrays.asList(
+            menuGeneral= Arrays.asList("Opciones:",
                     "1. SUMAR",
                     "2. RESTAR",
                     "3. MULTIPLICAR",
@@ -45,7 +48,7 @@ public class MainMenu {
                     /*Modulo.menu();*/
                     break;
                 case'6':
-                    /*Conv1.menu();*/
+                    conv.menu();
                     break;
                 case'7':
                     /*Estadistica.menu();*/
@@ -60,6 +63,6 @@ public class MainMenu {
                     throw new NumberFormatException("Opcion no valida");
             }
         }while(sc.nextInt() !=0);
-        }
+    }
     }
 

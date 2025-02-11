@@ -4,16 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Añadido el menú de la clase Resta." />
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/Calculadora">
-      <ProjectState />
-    </projectState>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Calculadora" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Diego" />
+        <entry key="$PROJECT_DIR$" value="LorenaSanchezErroz-patch-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,7 +55,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/apy122/ActividadGrupal2.git&quot;,
-    &quot;accountId&quot;: &quot;2b32d424-50a3-418f-b910-8220fabb6aa9&quot;
+    &quot;accountId&quot;: &quot;a4f75e50-dfc0-4ec6-a3e2-3bf3e9e0e5e8&quot;
   },
   &quot;recentNewPullRequestHead&quot;: {
     &quot;server&quot;: {
@@ -53,6 +68,9 @@
     &quot;repository&quot;: &quot;ActividadGrupal2&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Calculadora/src/main/java/javabean/Suma.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -67,6 +85,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Estadistica.executor": "Run",
+    "Gradle.Calculadora [:ConversionUnidades.main()].executor": "Run",
+    "Gradle.Calculadora [:org.example.MainMenu.main()].executor": "Run",
+    "Gradle.LogaritmosyExponencialesTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -81,21 +102,10 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "editor.preferences.folding",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -116,9 +126,10 @@
       <workItem from="1739014372302" duration="428000" />
       <workItem from="1739016233711" duration="252000" />
       <workItem from="1739017130268" duration="7848000" />
-      <workItem from="1739263069677" duration="193000" />
-      <workItem from="1739263270832" duration="2834000" />
-      <workItem from="1739267797191" duration="4856000" />
+      <workItem from="1739047599179" duration="4302000" />
+      <workItem from="1739100247182" duration="926000" />
+      <workItem from="1739101238141" duration="2000" />
+      <workItem from="1739184913096" duration="734000" />
     </task>
     <task id="LOCAL-00001" summary="anadiendo paquete de testing">
       <option name="closed" value="true" />
@@ -168,23 +179,55 @@
       <option name="project" value="LOCAL" />
       <updated>1739023878838</updated>
     </task>
-    <task id="LOCAL-00007" summary="Añadidos métodos de la clase Resta.">
+    <task id="LOCAL-00007" summary="Añadido JavaDoc en la clase Estadistica">
       <option name="closed" value="true" />
-      <created>1739272087178</created>
+      <created>1739049916505</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1739272087178</updated>
+      <updated>1739049916505</updated>
     </task>
-    <task id="LOCAL-00008" summary="Añadido el menú de la clase Resta.">
+    <task id="LOCAL-00008" summary="Añadido JavaDoc en la clase Estadistica">
       <option name="closed" value="true" />
-      <created>1739272128879</created>
+      <created>1739052065630</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1739272128879</updated>
+      <updated>1739052065630</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Añadido JavaDoc en la clase Estadistica">
+      <option name="closed" value="true" />
+      <created>1739052139141</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739052139141</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Añadido JavaDoc en la clase Estadistica">
+      <option name="closed" value="true" />
+      <created>1739052151416</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739052151416</updated>
+    </task>
+    <task id="LOCAL-00011" summary="modxificando cosas de conversionUnidades">
+      <option name="closed" value="true" />
+      <created>1739101091149</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739101091149</updated>
+    </task>
+    <task id="LOCAL-00012" summary="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;">
+      <option name="closed" value="true" />
+      <created>1739185565126</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739185565126</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,9 +236,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="anadiendo paquete de testing" />
     <MESSAGE value="Estructura añadida de la clase Estadistica" />
+    <MESSAGE value="realizando el testing de la clase logaritmos y exponenciales" />
     <MESSAGE value="Añadido JavaDoc en la clase Estadistica" />
-    <MESSAGE value="Añadidos métodos de la clase Resta." />
-    <MESSAGE value="Añadido el menú de la clase Resta." />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido el menú de la clase Resta." />
+    <MESSAGE value="modxificando cosas de conversionUnidades" />
+    <MESSAGE value="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;" />
   </component>
 </project>
