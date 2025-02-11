@@ -54,5 +54,76 @@ public class Resta {
         double acumulada = a++;
         return acumulada;
     }
+
+    /**
+     * Menú resta con cuatro opciones diferentes de resta, además de una de salida del menú resta:
+     * @param1 Resta de dos números reales.
+     * @return Resta de dos números reales.
+     * @param2 Opción de entrada para la resta de dos números enteros.
+     * @return Resta de dos números enteros.
+     * @param3 Opción de entrada para la resta de tres números reales.
+     * @return Resta de tres números reales.
+     * @param4 Opción de entrada para la resta acumulada.
+     * @return Resta acumulada.
+     * @param5 Salida del menú Resta.
+     * Se incluye también el objeto resta para poder realizar las operaciones.
+     * Se crea también una variable int para poder seleccionar una opción del menú.
+     */
+    public static void MenuResta() {
+        Scanner leer = new Scanner(System.in);
+        Resta resta = new Resta();
+        int opcionResta;
+
+        /**Bucle de un do - while para poder realizar las restas de la opción
+         * seleccionada.
+         */
+        do {
+            System.out.printf("Seleciona una opción para realizar una resta");
+            System.out.printf("1. Resta de dos números reales");
+            System.out.printf("2. Resta de dos números enteros");
+            System.out.printf("3. Resta de tres números enteros");
+            System.out.printf("4. Resta de números acumulados");
+            System.out.printf("5. Salir del menú Resta");
+
+            opcionResta = leer.nextInt();
+
+            switch (opcionResta) {
+                case 1:
+                    System.out.printf("Introduce dos números reales para realizar la resta: ");
+                    double restReal1 = leer.nextDouble();
+                    ;
+                    double restReal2 = leer.nextDouble();
+                    double resuRestReal = restReal1 - restReal2;
+                    System.out.printf("El resultado de la resta es: " + resuRestReal);
+                    break;
+                case 2:
+                    System.out.printf("Introduce dos números enteros para realizar la resta");
+                    int restEntero1 = leer.nextInt();
+                    int restEntero2 = leer.nextInt();
+                    int resuRestEnt = restEntero1 - restEntero2;
+                    System.out.printf("El resultado de la resta es: " + resuRestEnt);
+                    break;
+                case 3:
+                    System.out.printf("Introduce tres números reales para realizar la resta");
+                    double restReal3 = leer.nextDouble();
+                    double restReal4 = leer.nextDouble();
+                    double restReal5 = leer.nextDouble();
+                    double resuRestaReal = restReal3 - restReal4 - restReal5;
+                    System.out.printf("El resultado de la resta es: " + resuRestaReal);
+                    break;
+                case 4:
+                    System.out.printf("Introduce los números que quieras restar");
+                    double restAcumulada = leer.nextDouble();
+                    System.out.printf("La resta de todos los números es: " + restAcumulada);
+                    break;
+            }
+
+
+        }
+        while (opcionResta != 5);
+        leer.close();
+    }
+
+
 }
 
