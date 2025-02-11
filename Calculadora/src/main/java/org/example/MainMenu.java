@@ -65,4 +65,3 @@ public class MainMenu {
         }while(sc.nextInt() !=0);
     }
     }
-
