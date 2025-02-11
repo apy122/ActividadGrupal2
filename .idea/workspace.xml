@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Añadido JavaDoc en la clase Estadistica">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Añadido el menú de la clase Resta.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Resta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Resta.java" afterDir="false" />
     </list>
@@ -127,7 +121,7 @@
       <workItem from="1739017130268" duration="7848000" />
       <workItem from="1739263069677" duration="193000" />
       <workItem from="1739263270832" duration="2834000" />
-      <workItem from="1739267797191" duration="4140000" />
+      <workItem from="1739267797191" duration="4856000" />
     </task>
     <task id="LOCAL-00001" summary="anadiendo paquete de testing">
       <option name="closed" value="true" />
@@ -177,7 +171,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739023878838</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Añadidos métodos de la clase Resta.">
+      <option name="closed" value="true" />
+      <created>1739272087178</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739272087178</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Añadido el menú de la clase Resta.">
+      <option name="closed" value="true" />
+      <created>1739272128879</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739272128879</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +197,8 @@
     <MESSAGE value="anadiendo paquete de testing" />
     <MESSAGE value="Estructura añadida de la clase Estadistica" />
     <MESSAGE value="Añadido JavaDoc en la clase Estadistica" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido JavaDoc en la clase Estadistica" />
+    <MESSAGE value="Añadidos métodos de la clase Resta." />
+    <MESSAGE value="Añadido el menú de la clase Resta." />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadido el menú de la clase Resta." />
   </component>
 </project>
