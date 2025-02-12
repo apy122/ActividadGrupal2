@@ -76,55 +76,52 @@ public class ConversionUnidades{
     }
 
     /**Muestra el menu y ejecucuion de cada opcion
-     *@param opcion elegir el tipo de conversion(
-     *             1. Celsius a Fahrenheit
-     *             2. Fahrenheit a Celsius
-     *             3. Grados a Radianes
-     *             4. Radianes a Grados
-     *             5. Salir)
      */
 
-    public void menu(int opcion){
-        do{
-            System.out.println("\n--- Conversor de Unidades ---");
-            menu= Arrays.asList(
-            "1. Celsius a Fahrenheit",
-            "2. Fahrenheit a Celsius",
-            "3. Grados a Radianes",
-            "4. Radianes a Grados",
-            "5. Salir");
-        System.out.print("Elige opcion");
-        menu.forEach(System.out::println);
-        }while(opcion !=5);
+    public void menu(){
+        int opcion= scanner.nextInt();
+        if (opcion <1 || opcion > menu.size()){
+            throw new IllegalArgumentException("Opcion no valida");
+        }else{
+            do{
+                System.out.println("\n--- Conversor de Unidades ---");
+                menu= Arrays.asList(
+                        "1. Celsius a Fahrenheit",
+                        "2. Fahrenheit a Celsius",
+                        "3. Grados a Radianes",
+                        "4. Radianes a Grados",
+                        "5. Salir");
+                System.out.print("Elige opcion");
+                menu.forEach(System.out::println);
+            }while(opcion !=5);
 
-        switch (opcion){
-            case 1:
-                System.out.print( "Ingrese los grados celsius" );
-                celsius = scanner.nextDouble();
-                fahrenheit = ConversionCelsiusFahrenheit(celsius);
-                System.out.print( "Resultado=" + " " + fahrenheit);
-                break;
-            case 2:
-                System.out.print( "Ingrese los grados farenheit" );
-                fahrenheit = scanner.nextDouble( );
-                celsius = ConversionFahrenheitCelsius( fahrenheit);
-                System.out.print( "Resultado=" + " " + celsius );
-                break;
-            case 3:
-                System.out.print( "Ingrese los grados" );
-                grados = scanner.nextDouble( );
-                radianes = ConversionGradosRadianes( grados);
-                System.out.print( "Resultado=" + " " + radianes );
-                break;
-            case 4:
-                System.out.print( "Ingrese los radiales" );
-                radianes = scanner.nextDouble( );
-                grados = ConversionRadianesCelsius(radianes);
-                System.out.print( "Resultado=" + " " + grados );
-                break;
-            case 5:
-                break;
+            switch (opcion){
+                case 1:
+                    System.out.print( "Ingrese los grados celsius" );
+                    celsius = scanner.nextDouble();
+                    fahrenheit = ConversionCelsiusFahrenheit(celsius);
+                    System.out.print( "Resultado=" + " " + fahrenheit);
+                    break;
+                case 2:
+                    System.out.print( "Ingrese los grados farenheit" );
+                    fahrenheit = scanner.nextDouble( );
+                    celsius = ConversionFahrenheitCelsius( fahrenheit);
+                    System.out.print( "Resultado=" + " " + celsius );
+                    break;
+                case 3:
+                    System.out.print( "Ingrese los grados" );
+                    grados = scanner.nextDouble( );
+                    radianes = ConversionGradosRadianes( grados);
+                    System.out.print( "Resultado=" + " " + radianes );
+                    break;
+                case 4:
+                    System.out.print( "Ingrese los radiales" );
+                    radianes = scanner.nextDouble( );
+                    grados = ConversionRadianesCelsius(radianes);
+                    System.out.print( "Resultado=" + " " + grados );
+                    break;
             }
+        }
 
         }
     /**Conversor celsius a fahrenheit
@@ -158,5 +155,7 @@ public class ConversionUnidades{
         return grados;
 
     }
-    }
+
+
+}
 
