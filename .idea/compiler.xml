@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel>
-      <module name="Calculadora" target="21" />
-      <module name="Calculadora.main" target="21" />
-      <module name="Calculadora.test" target="21" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="23" />
   </component>
 </project>
