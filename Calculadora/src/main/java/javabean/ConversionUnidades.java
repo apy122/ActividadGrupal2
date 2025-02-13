@@ -84,14 +84,14 @@ public class ConversionUnidades{
             throw new IllegalArgumentException("Opcion no valida");
         }else{
             do{
-                System.out.println("\n--- Conversor de Unidades ---");
                 menu= Arrays.asList(
+                        "Conversion de unidades:",
                         "1. Celsius a Fahrenheit",
                         "2. Fahrenheit a Celsius",
                         "3. Grados a Radianes",
                         "4. Radianes a Grados",
-                        "5. Salir");
-                System.out.print("Elige opcion");
+                        "5. Salir\n",
+                        "Elige opcion");
                 menu.forEach(System.out::println);
             }while(opcion !=5);
 
