@@ -57,15 +57,11 @@ public class Resta {
 
     /**
      * Menú resta con cuatro opciones diferentes de resta, además de una de salida del menú resta:
-     * @param1 Resta de dos números reales.
-     * @return Resta de dos números reales.
-     * @param2 Opción de entrada para la resta de dos números enteros.
-     * @return Resta de dos números enteros.
-     * @param3 Opción de entrada para la resta de tres números reales.
-     * @return Resta de tres números reales.
-     * @param4 Opción de entrada para la resta acumulada.
-     * @return Resta acumulada.
-     * @param5 Salida del menú Resta.
+     *      1 Resta de dos números reales.
+     *      2 Resta de dos números enteros.
+     *      3 Resta de tres números reales.
+     *      4 Resta acumulada.
+     *      5 Salida del menú Resta.
      * Se incluye también el objeto resta para poder realizar las operaciones.
      * Se crea también una variable int para poder seleccionar una opción del menú.
      */
