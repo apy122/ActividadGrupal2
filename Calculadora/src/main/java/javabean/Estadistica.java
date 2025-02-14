@@ -14,7 +14,7 @@ import java.util.Scanner;
  * }</pre>
  *
  * @author Lucía Ramírez Verdú (aka lucia.ramirez491@comunidadunir.net - lrv491)
- * @version 1.2
+ * @version 1.3
  */
 
 public class Estadistica {
@@ -28,7 +28,7 @@ public class Estadistica {
      * @return La solución de la media aritmética.
      */
 
-    public static double mediaAritmetica(double numeros){
+    public static double mediaAritmetica(double[] numeros){
         if(numeros.length == 0)
             throw new IllegalArgumentException("El array de numeros no puede ser nulo");
 
