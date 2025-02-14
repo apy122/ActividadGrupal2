@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="JavaDoc corregido">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="UPDATE: workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/test/java/javabean/EstadisticaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/test/java/javabean/EstadisticaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="David" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,7 +97,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;David&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#15 on Lucia&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/DAM/0102_ED/Java_Workspace/AD2_Javadoc_JUnit/ActividadGrupal2/Calculadora/src/test/java/javabean&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/DAM/0102_ED/Java_Workspace/AD2_Javadoc_JUnit/ActividadGrupal2&quot;,
@@ -363,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739290416475</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="UPDATE: workspace.xml">
+      <option name="closed" value="true" />
+      <created>1739561624211</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739561624211</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +382,7 @@
     <MESSAGE value="Añadido el menú, y corregidos los métodos" />
     <MESSAGE value="Modifico el metodo 1 y añado un return 0 y un mensaje." />
     <MESSAGE value="JavaDoc corregido" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaDoc corregido" />
+    <MESSAGE value="UPDATE: workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: workspace.xml" />
   </component>
 </project>
