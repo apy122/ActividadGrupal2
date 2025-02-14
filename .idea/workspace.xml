@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="UPDATE: workspace.xml">
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="UPDATE: Estadistica - v1.3">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,18 +13,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/Calculadora">
-      <ProjectState />
-    </projectState>
-  </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <task path="$PROJECT_DIR$/Calculadora">
-          <activation />
-        </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Calculadora" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -49,22 +52,25 @@
     &quot;assignee&quot;: &quot;apy122&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:apy122/ActividadGrupal2.git&quot;,
-    &quot;accountId&quot;: &quot;2781fa7d-e3f8-4bef-9b4e-6f68ec5a623a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:apy122/ActividadGrupal2.git",
+    "accountId": "31c33509-6213-4a4c-b3f4-96d600b381a3"
   },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
     },
-    &quot;owner&quot;: &quot;apy122&quot;,
-    &quot;repository&quot;: &quot;ActividadGrupal2&quot;
+    "owner": "apy122",
+    "repository": "ActividadGrupal2"
   }
-}</component>
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Calculadora/src/main/java/javabean/Suma.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -79,28 +85,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Estadistica.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ConversionUnidadesTest.conversionCelsiusFahrenheit.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.EstadisticaTest.desviacionEstandar.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.EstadisticaTest.mediaAritmetica.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.EstadisticaTest.mediaAritmeticaCero.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.EstadisticaTest.mediaAritmeticaNegativos.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.EstadisticaTest.mediaAritmeticaPositivos.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.EstadisticaTest.mediaAritmeticaVacio.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.EstadisticaTest.menu.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.EstadisticaTest.varianza.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Calculadora [:ConversionUnidades.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Calculadora [:org.example.MainMenu.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.LogaritmosyExponencialesTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.LogaritmosyExponencialesTest.logaritmoNatural.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.LogaritmosyExponencialesTest.setUp.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#15 on Lucia&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Lucia&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/DAM/0102_ED/Java_Workspace/AD2_Javadoc_JUnit/ActividadGrupal2/Calculadora/src/test/java/javabean&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/DAM/0102_ED/Java_Workspace/AD2_Javadoc_JUnit/ActividadGrupal2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucia/IdeaProjects/JavaDocEj&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -109,163 +102,15 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="javabean" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Gradle.EstadisticaTest.desviacionEstandar">
-    <configuration name="EstadisticaTest.desviacionEstandar" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;javabean.EstadisticaTest.desviacionEstandar&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="EstadisticaTest.mediaAritmeticaCero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;javabean.EstadisticaTest.mediaAritmeticaCero&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="EstadisticaTest.mediaAritmeticaNegativos" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;javabean.EstadisticaTest.mediaAritmeticaNegativos&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="EstadisticaTest.mediaAritmeticaVacio" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;javabean.EstadisticaTest.mediaAritmeticaVacio&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="EstadisticaTest.varianza" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;javabean.EstadisticaTest.varianza&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.EstadisticaTest.varianza" />
-        <item itemvalue="Gradle.EstadisticaTest.mediaAritmeticaVacio" />
-        <item itemvalue="Gradle.EstadisticaTest.mediaAritmeticaNegativos" />
-        <item itemvalue="Gradle.EstadisticaTest.mediaAritmeticaCero" />
-        <item itemvalue="Gradle.EstadisticaTest.desviacionEstandar" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
       </set>
     </attachedChunks>
   </component>
@@ -281,13 +126,12 @@
       <workItem from="1739014372302" duration="428000" />
       <workItem from="1739016233711" duration="252000" />
       <workItem from="1739017130268" duration="7848000" />
-      <workItem from="1739263013563" duration="18605000" />
-      <workItem from="1739362014182" duration="121000" />
-      <workItem from="1739370610518" duration="696000" />
-      <workItem from="1739371811290" duration="617000" />
-      <workItem from="1739534179857" duration="5724000" />
-      <workItem from="1739550634290" duration="29000" />
-      <workItem from="1739553722200" duration="4167000" />
+      <workItem from="1739047599179" duration="4302000" />
+      <workItem from="1739100247182" duration="926000" />
+      <workItem from="1739101238141" duration="2000" />
+      <workItem from="1739184913096" duration="734000" />
+      <workItem from="1739481609875" duration="71000" />
+      <workItem from="1739550335531" duration="476000" />
     </task>
     <task id="LOCAL-00001" summary="anadiendo paquete de testing">
       <option name="closed" value="true" />
@@ -337,39 +181,55 @@
       <option name="project" value="LOCAL" />
       <updated>1739023878838</updated>
     </task>
-    <task id="LOCAL-00007" summary="Añadido el menú, y corregidos los métodos">
+    <task id="LOCAL-00007" summary="Añadido JavaDoc en la clase Estadistica">
       <option name="closed" value="true" />
-      <created>1739276659890</created>
+      <created>1739049916505</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1739276659890</updated>
+      <updated>1739049916505</updated>
     </task>
-    <task id="LOCAL-00008" summary="Modifico el metodo 1 y añado un return 0 y un mensaje.">
+    <task id="LOCAL-00008" summary="Añadido JavaDoc en la clase Estadistica">
       <option name="closed" value="true" />
-      <created>1739289745476</created>
+      <created>1739052065630</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1739289745476</updated>
+      <updated>1739052065630</updated>
     </task>
-    <task id="LOCAL-00009" summary="JavaDoc corregido">
+    <task id="LOCAL-00009" summary="Añadido JavaDoc en la clase Estadistica">
       <option name="closed" value="true" />
-      <created>1739290416475</created>
+      <created>1739052139141</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1739290416475</updated>
+      <updated>1739052139141</updated>
     </task>
-    <task id="LOCAL-00010" summary="UPDATE: workspace.xml">
+    <task id="LOCAL-00010" summary="Añadido JavaDoc en la clase Estadistica">
       <option name="closed" value="true" />
-      <created>1739561624211</created>
+      <created>1739052151416</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1739561624211</updated>
+      <updated>1739052151416</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="modxificando cosas de conversionUnidades">
+      <option name="closed" value="true" />
+      <created>1739101091149</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739101091149</updated>
+    </task>
+    <task id="LOCAL-00012" summary="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;">
+      <option name="closed" value="true" />
+      <created>1739185565126</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739185565126</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,11 +238,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="anadiendo paquete de testing" />
     <MESSAGE value="Estructura añadida de la clase Estadistica" />
+    <MESSAGE value="realizando el testing de la clase logaritmos y exponenciales" />
     <MESSAGE value="Añadido JavaDoc en la clase Estadistica" />
-    <MESSAGE value="Añadido el menú, y corregidos los métodos" />
-    <MESSAGE value="Modifico el metodo 1 y añado un return 0 y un mensaje." />
-    <MESSAGE value="JavaDoc corregido" />
-    <MESSAGE value="UPDATE: workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: workspace.xml" />
+    <MESSAGE value="modxificando cosas de conversionUnidades" />
+    <MESSAGE value="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;" />
   </component>
 </project>
