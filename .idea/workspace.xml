@@ -4,13 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Añadido JavaDoc en la clase Estadistica">
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/ConversionUnidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/ConversionUnidades.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Calculadora" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lucia" />
+        <entry key="$PROJECT_DIR$" value="LorenaSanchezErroz-patch-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,22 +54,25 @@
     &quot;assignee&quot;: &quot;apy122&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:apy122/ActividadGrupal2.git&quot;,
-    &quot;accountId&quot;: &quot;31c33509-6213-4a4c-b3f4-96d600b381a3&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/apy122/ActividadGrupal2.git",
+    "accountId": "53ecd6cd-19ab-4d83-ae23-f24c14556cd0"
   },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
     },
-    &quot;owner&quot;: &quot;apy122&quot;,
-    &quot;repository&quot;: &quot;ActividadGrupal2&quot;
+    "owner": "apy122",
+    "repository": "ActividadGrupal2"
   }
-}</component>
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Calculadora/src/main/java/javabean/Suma.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -61,43 +84,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Estadistica.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lucia",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lucia/IdeaProjects/JavaDocEj",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Estadistica.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Calculadora [:ConversionUnidades.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Calculadora [:org.example.MainMenu.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LogaritmosyExponencialesTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucia/IdeaProjects/JavaDocEj&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
@@ -113,7 +128,11 @@
       <workItem from="1739014372302" duration="428000" />
       <workItem from="1739016233711" duration="252000" />
       <workItem from="1739017130268" duration="7848000" />
-      <workItem from="1739530286985" duration="407000" />
+      <workItem from="1739047599179" duration="4302000" />
+      <workItem from="1739100247182" duration="926000" />
+      <workItem from="1739101238141" duration="2000" />
+      <workItem from="1739184913096" duration="734000" />
+      <workItem from="1739481609875" duration="71000" />
     </task>
     <task id="LOCAL-00001" summary="anadiendo paquete de testing">
       <option name="closed" value="true" />
@@ -163,7 +182,55 @@
       <option name="project" value="LOCAL" />
       <updated>1739023878838</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Añadido JavaDoc en la clase Estadistica">
+      <option name="closed" value="true" />
+      <created>1739049916505</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739049916505</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Añadido JavaDoc en la clase Estadistica">
+      <option name="closed" value="true" />
+      <created>1739052065630</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739052065630</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Añadido JavaDoc en la clase Estadistica">
+      <option name="closed" value="true" />
+      <created>1739052139141</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739052139141</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Añadido JavaDoc en la clase Estadistica">
+      <option name="closed" value="true" />
+      <created>1739052151416</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739052151416</updated>
+    </task>
+    <task id="LOCAL-00011" summary="modxificando cosas de conversionUnidades">
+      <option name="closed" value="true" />
+      <created>1739101091149</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739101091149</updated>
+    </task>
+    <task id="LOCAL-00012" summary="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;">
+      <option name="closed" value="true" />
+      <created>1739185565126</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739185565126</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +239,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="anadiendo paquete de testing" />
     <MESSAGE value="Estructura añadida de la clase Estadistica" />
+    <MESSAGE value="realizando el testing de la clase logaritmos y exponenciales" />
     <MESSAGE value="Añadido JavaDoc en la clase Estadistica" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido JavaDoc en la clase Estadistica" />
+    <MESSAGE value="modxificando cosas de conversionUnidades" />
+    <MESSAGE value="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: &quot;clase Suma - LorenaSanchezErroz&quot;" />
   </component>
 </project>
