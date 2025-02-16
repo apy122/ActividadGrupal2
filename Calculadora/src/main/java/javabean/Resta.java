@@ -5,10 +5,33 @@ import java.util.Scanner;
 /** La clase Resta proporcionará métodos relacionados con las restas de una calculadora.
  *
  * @author Diego Sainz (aka diesainzg https://github.com/Diesainzg)
- * @version 1.0
+ * @version 1.2
  */
 
 public class Resta {
+
+    /**
+     * Creamos una variable para poder guardar las restas acumuladas en la clase
+     */
+    private int restaAcumulada;
+
+    /**
+     * Constructor con el parámetro de restaAcumulada
+     */
+    public Resta() {
+        this.restaAcumulada = restaAcumulada;
+    }
+
+    /**
+     * Getters and setters
+     */
+    public int getRestaAcumulada() {
+        return restaAcumulada;
+    }
+
+    public void setRestaAcumulada(int restaAcumulada) {
+        this.restaAcumulada = restaAcumulada;
+    }
 
     /**
      * Resta de dos números reales:
@@ -47,12 +70,10 @@ public class Resta {
     /**
      * Resta con valor acumulado.
      *
-     * @param a Parámetro de entrada.
-     * @return Resultado de la resta de todos los parámetros introducidos.
+     * @param totalResta Parámetro de entrada.
      */
-    public double restaAcumulada(double a) {
-        double acumulada = a--;
-        return acumulada;
+    public void acumulaResta(double totalResta) {
+        restaAcumulada -= totalResta;
     }
 
     /**
@@ -106,8 +127,9 @@ public class Resta {
                     break;
                 case 4:
                     System.out.println("Introduce los números que quieras restar");
-                    double restAcum = leer.nextDouble();
-                    System.out.println("La resta de todos los números es: " + resta.restaAcumulada(restAcum));
+                    double restaAcumulada = leer.nextDouble();
+                    System.out.println("La resta de todos los números acumulados es: ");
+
                     break;
             }
 

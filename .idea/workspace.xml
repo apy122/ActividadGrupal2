@@ -7,7 +7,7 @@
     <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="JavaDoc corregido">
       <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/test/java/javabean/EstadisticaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/test/java/javabean/EstadisticaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Resta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Resta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "git-widget-placeholder": "David",
+    "git-widget-placeholder": "Diego",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/DAM/0102_ED/Java_Workspace/AD2_Javadoc_JUnit/ActividadGrupal2/Calculadora/src/test/java/javabean",
     "last_opened_file_path": "C:/DAM/0102_ED/Java_Workspace/AD2_Javadoc_JUnit/ActividadGrupal2",
