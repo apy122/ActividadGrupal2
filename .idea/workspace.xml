@@ -40,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="David" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,43 +78,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Estadistica.executor": "Run",
-    "Gradle.ConversionUnidadesTest.conversionCelsiusFahrenheit.executor": "Run",
-    "Gradle.EstadisticaTest.desviacionEstandar.executor": "Run",
-    "Gradle.EstadisticaTest.mediaAritmetica.executor": "Run",
-    "Gradle.EstadisticaTest.mediaAritmeticaCero.executor": "Run",
-    "Gradle.EstadisticaTest.mediaAritmeticaNegativos.executor": "Run",
-    "Gradle.EstadisticaTest.mediaAritmeticaPositivos.executor": "Run",
-    "Gradle.EstadisticaTest.mediaAritmeticaVacio.executor": "Run",
-    "Gradle.EstadisticaTest.menu.executor": "Run",
-    "Gradle.EstadisticaTest.varianza.executor": "Run",
-    "Gradle.LogaritmosyExponencialesTest.executor": "Run",
-    "Gradle.LogaritmosyExponencialesTest.logaritmoNatural.executor": "Run",
-    "Gradle.LogaritmosyExponencialesTest.setUp.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "git-widget-placeholder": "Diego",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/DAM/0102_ED/Java_Workspace/AD2_Javadoc_JUnit/ActividadGrupal2/Calculadora/src/test/java/javabean",
-    "last_opened_file_path": "C:/DAM/0102_ED/Java_Workspace/AD2_Javadoc_JUnit/ActividadGrupal2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Estadistica.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ConversionUnidadesTest.conversionCelsiusFahrenheit.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EstadisticaTest.desviacionEstandar.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EstadisticaTest.mediaAritmetica.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EstadisticaTest.mediaAritmeticaCero.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EstadisticaTest.mediaAritmeticaNegativos.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EstadisticaTest.mediaAritmeticaPositivos.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EstadisticaTest.mediaAritmeticaVacio.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EstadisticaTest.menu.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EstadisticaTest.varianza.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LogaritmosyExponencialesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LogaritmosyExponencialesTest.logaritmoNatural.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LogaritmosyExponencialesTest.setUp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Diego&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/DAM/0102_ED/Java_Workspace/AD2_Javadoc_JUnit/ActividadGrupal2/Calculadora/src/test/java/javabean&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/DAM/0102_ED/Java_Workspace/AD2_Javadoc_JUnit/ActividadGrupal2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -255,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.EstadisticaTest.desviacionEstandar" />
         <item itemvalue="Gradle.EstadisticaTest.varianza" />
         <item itemvalue="Gradle.EstadisticaTest.mediaAritmeticaVacio" />
-        <item itemvalue="Gradle.EstadisticaTest.mediaAritmeticaCero" />
         <item itemvalue="Gradle.EstadisticaTest.mediaAritmeticaNegativos" />
+        <item itemvalue="Gradle.EstadisticaTest.mediaAritmeticaCero" />
+        <item itemvalue="Gradle.EstadisticaTest.desviacionEstandar" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739290416475</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Cambios realizados en la resta acumulada.">
+      <option name="closed" value="true" />
+      <created>1739714694947</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739714694947</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,6 +384,7 @@
     <MESSAGE value="Añadido el menú, y corregidos los métodos" />
     <MESSAGE value="Modifico el metodo 1 y añado un return 0 y un mensaje." />
     <MESSAGE value="JavaDoc corregido" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaDoc corregido" />
+    <MESSAGE value="Cambios realizados en la resta acumulada." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios realizados en la resta acumulada." />
   </component>
 </project>

@@ -128,7 +128,7 @@ public class Resta {
                 case 4:
                     System.out.println("Introduce los números que quieras restar");
                     double restaAcumulada = leer.nextDouble();
-                    System.out.println("La resta de todos los números acumulados es: ");
+                    System.out.println("La resta de todos los números acumulados es: " + resta.restaAcumulada);
 
                     break;
             }
