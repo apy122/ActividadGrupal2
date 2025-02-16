@@ -5,10 +5,11 @@ import java.util.Scanner;
 /** Clase Módulo dentro de la Calculadora grupal.
  * <p>Ejemplo de uso</p>
  * @author David Sánchez
- * @version 4.0
+ * @version 5.0
  * V. 2 Corregida función "modulo", sustituyendo return por throw new en la excepción.
  * V. 3. Inserté static en las funciones "módulo" y "vAbsolut" para poder incluirla en el menú
  * V. 4. No logré usar la excepción. Modifico el mét_odo 1 y añado un return 0 y un mensaje.
+ * V. 5. Tras trabajar con el compañero que me testea (Alessandro) vuelvo a usar ArithmeticException.
  */
 
 public class Modulo {
@@ -18,15 +19,13 @@ public class Modulo {
      * 1º Cálculo del módulo de dos números enteros. (Residuo de una división entera).
      * @param a es el dividendo.
      * @param b es el divisor.
-     * @return 0 a través de if si el divisor es 0, y el módulo si el divisor es correcto.
-     * He implementado un if y return por no poder usar la excepción.
+     * @return módulo entre a y b.
      */
 
     public static int modulo(int a, int b){
 
         if(b==0){
-            System.out.println("El divisor no puede ser cero");
-            return 0;
+            throw new ArithmeticException("El divisor no puede ser cero");
         }
         return a % b;
     }
