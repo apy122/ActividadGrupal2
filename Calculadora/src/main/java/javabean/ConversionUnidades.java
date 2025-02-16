@@ -1,29 +1,30 @@
 package javabean;
-import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-/**Esta clase es un conversor de unidades
+/**
+ * Esta clase es un conversor de unidades.
  * @author apy122
  * @version 1.0
  **/
-public class ConversionUnidades{
+public class ConversionUnidades {
     private List<String> menu;
     private double celsius, fahrenheit, grados, radianes;
-    private Scanner scanner=new Scanner(System.in);
+    private Scanner scanner = new Scanner(System.in);
 
-    /**Constructor sin parametros*/
+    /** Constructor sin parámetros */
     public ConversionUnidades() {
         super();
-
     }
-    /**Get and set*/
+
+    /** Getters y Setters */
     public List<String> getMenu() {
         return menu;
     }
 
-    public void setMenu(ArrayList<String> menu) {
+    public void setMenu(List<String> menu) {
         this.menu = menu;
     }
 
@@ -67,9 +68,19 @@ public class ConversionUnidades{
         this.scanner = scanner;
     }
 
-    /**Muestra el menu y ejecucuion de cada opcion
-     */
+    @Override
+    public String toString() {
+        return "ConversionUnidades{" +
+                "menu=" + menu +
+                ", celsius=" + celsius +
+                ", fahrenheit=" + fahrenheit +
+                ", grados=" + grados +
+                ", radianes=" + radianes +
+                ", scanner=" + scanner +
+                '}';
+    }
 
+    /** Muestra el menú y ejecuta la opción seleccionada */
     public void menu() {
         char opcion;
         menu = Arrays.asList(
@@ -78,44 +89,55 @@ public class ConversionUnidades{
                 "2. Fahrenheit a Celsius",
                 "3. Grados a Radianes",
                 "4. Radianes a Grados",
-                "5. Salir\n",
-                "Elige opcion" );
+                "5. Salir"
+        );
+
         do {
-            menu.forEach( System.out::println );
-            System.out.print( "Ingrese una opción: " );
-            opcion = scanner.next( ).charAt( 0 );
-            if (opcion < 1 || opcion > menu.size( )) {
-                throw new IllegalArgumentException( "Opcion no valida" );
-            } else {
-                do {
-                    switch (opcion) {
-                        case 1:
-                            System.out.print( "Ingrese los grados celsius" );
-                            celsius = scanner.nextDouble( );
-                            fahrenheit = ConversionCelsiusFahrenheit( celsius );
-                            System.out.print( "Resultado=" + " " + fahrenheit );
-                            break;
-                        case 2:
-                            System.out.print( "Ingrese los grados farenheit" );
-                            fahrenheit = scanner.nextDouble( );
-                            celsius = ConversionFahrenheitCelsius( fahrenheit );
-                            System.out.print( "Resultado=" + " " + celsius );
-                            break;
-                        case 3:
-                            System.out.print( "Ingrese los grados" );
-                            grados = scanner.nextDouble( );
-                            radianes = ConversionGradosRadianes( grados );
-                            System.out.print( "Resultado=" + " " + radianes );
-                            break;
-                        case 4:
-                            System.out.print( "Ingrese los radiales" );
-                            radianes = scanner.nextDouble( );
-                            grados = ConversionRadianesCelsius( radianes );
-                            System.out.print( "Resultado=" + " " + grados );
-                            break;
-                    }
-                }while(opcion != '5');
-        }
+            menu.forEach(System.out::println);
+            System.out.print("Ingrese una opción: ");
+            opcion = scanner.next().charAt(0);
+
+            switch (opcion) {
+                case '1':
+                    System.out.print("Ingrese los grados Celsius: ");
+                    celsius = scanner.nextDouble();
+                    fahrenheit = ConversionCelsiusFahrenheit(celsius);
+                    System.out.println("Resultado: " + fahrenheit + " °F");
+                    break;
+                case '2':
+                    System.out.print("Ingrese los grados Fahrenheit: ");
+                    fahrenheit = scanner.nextDouble();
+                    celsius = ConversionFahrenheitCelsius(fahrenheit);
+                    System.out.println("Resultado: " + celsius + " °C");
+                    break;
+                case '3':
+                    System.out.print("Ingrese los grados: ");
+                    grados = scanner.nextDouble();
+                    radianes = ConversionGradosRadianes(grados);
+                    System.out.println("Resultado: " + radianes + " radianes");
+                    break;
+                case '4':
+                    System.out.print("Ingrese los radianes: ");
+                    radianes = scanner.nextDouble();
+                    grados = ConversionRadianesGrados(radianes);
+                    System.out.println("Resultado: " + grados + " grados");
+                    break;
+                case '5':
+                    System.out.println("Saliendo del conversor...");
+                    break;
+                default:
+                    System.out.println("Opción no válida. Intente de nuevo.");
+            }
+        } while (opcion != '5');
+    }
+
+
+
+
+
+
+
+
     /**Conversor celsius a fahrenheit
      * @param celsius pedir cantidad de celsius a convertir a fahrenheit
      * @return La cantidad en fahrenheit*/
