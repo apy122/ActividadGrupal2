@@ -130,46 +130,39 @@ public class ConversionUnidades {
             }
         } while (opcion != '5');
     }
-
-
-
-
-
-
-
-
-    /**Conversor celsius a fahrenheit
-     * @param celsius pedir cantidad de celsius a convertir a fahrenheit
-     * @return La cantidad en fahrenheit*/
+    /**
+     * Convierte grados Celsius a Fahrenheit.
+     * @param celsius Cantidad en grados Celsius.
+     * @return Equivalente en grados Fahrenheit.
+     */
     public double ConversionCelsiusFahrenheit(double celsius) {
-        fahrenheit=(celsius * 9/5) + 32;
-        return  fahrenheit;
+        return (celsius * 9 / 5) + 32;
     }
 
-    /**Conversor fahrenheit a celsius
-     * @param  fahrenheit pedir la cantidad de fahrenheit a convertir celsius
-     * @return La cantidad en celsius*/
+    /**
+     * Convierte grados Fahrenheit a Celsius.
+     * @param fahrenheit Cantidad en grados Fahrenheit.
+     * @return Equivalente en grados Celsius.
+     */
     public double ConversionFahrenheitCelsius(double fahrenheit) {
-        grados=(fahrenheit -32)*5/9;
-        return grados;
+        return (fahrenheit - 32) * 5 / 9;
     }
 
-    /**Conversor grados a radianes
-     * @param grados pedir la cantidad de grados a convertir a Radianes
-     * @return la cantidad en radianes*/
+    /**
+     * Convierte grados a radianes.
+     * @param grados Cantidad en grados.
+     * @return Equivalente en radianes.
+     */
     public double ConversionGradosRadianes(double grados) {
-        radianes = grados * Math.PI / 180;
-        return radianes;
-    }
-    /**Conversor grados a radianes
-     * @param radianes pedir la cantidad de radianes a convertir a grados
-     * @return la cantidad en grados*/
-    public double ConversionRadianesCelsius(double radianes) {
-        grados=radianes*180/Math.PI;
-        return grados;
-
+        return grados * Math.PI / 180;
     }
 
-
+    /**
+     * Convierte radianes a grados.
+     * @param radianes Cantidad en radianes.
+     * @return Equivalente en grados.
+     */
+    public double ConversionRadianesGrados(double radianes) {
+        return radianes * 180 / Math.PI;
+    }
 }
-
