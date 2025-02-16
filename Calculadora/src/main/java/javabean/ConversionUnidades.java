@@ -166,4 +166,3 @@ public class ConversionUnidades {
         return radianes * 180 / Math.PI;
     }
 }
-6
