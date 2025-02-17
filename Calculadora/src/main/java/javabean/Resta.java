@@ -49,7 +49,7 @@ public class Resta {
      * @return Resultado de la resta a - b.
      */
     public static double restaReal(double a, double b) {
-        if((a>=0 && b<0) || (a<0 && b>0)) {
+        if((a>0 && b<0) || (a<0 && b>0)) {
             throw new IllegalArgumentException("El número no puede ser negativo");
         }
         return a - b;
@@ -64,7 +64,7 @@ public class Resta {
      * @return Resultado de la resta de a - b.
      */
     public static int restaEntero(int a, int b) {
-        if((a>=0 && b<0) || (a<0 && b>0)) {
+        if((a>0 && b<0) || (a<0 && b>0)) {
             throw new IllegalArgumentException("El número no puede ser negativo");
         }
         return a - b;
@@ -80,7 +80,7 @@ public class Resta {
      * @return Resultado de la resta de a - b - c.
      */
     public static double restaTresReal(double a, double b, double c) {
-        if((a>=0 && b<0) || (a<0 && b>0)) {
+        if((a<0 && b>0 && c>0) || (a>0 && b<0 && c<0)) {
             throw new IllegalArgumentException("El número no puede ser negativo");
         }
         return a - b - c;
@@ -94,6 +94,7 @@ public class Resta {
     public void acumulaResta(double totalResta) {
         restaAcumulada -= totalResta;
     }
+
 
     /**
      * Menú resta con cuatro opciones diferentes de resta, además de una de salida del menú resta:
@@ -148,7 +149,6 @@ public class Resta {
                     System.out.println("Introduce los números que quieras restar");
                     double restaAcumulada = leer.nextDouble();
                     System.out.println("La resta de todos los números acumulados es: " + resta.restaAcumulada);
-
                     break;
             }
 
