@@ -47,7 +47,7 @@ public class MainMenu {
                     /*Cociente.menu();*/
                     break;
                 case '5':
-                    /*Modulo.menu();*/
+                    Modulo.modMenu();
                     break;
                 case '6':
                     conv.menu();
