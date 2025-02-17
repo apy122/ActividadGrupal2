@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="arreglando  problema en gradle scanner, menu conversionUnidad y menu general">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/ConversionUnidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/ConversionUnidades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/org/example/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/org/example/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,17 @@
         <task path="$PROJECT_DIR$/Calculadora">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Calculadora" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -80,49 +88,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Estadistica.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Calculadora [:org.example.MainMenu.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Calculadora [dependencies].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Calculadora [test].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Calculadora.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ConversionUnidadesTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.EstadisticaTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.SumaNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.SumaNegativo2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.SumaReal.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.SumaRealNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.SumaTres.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.SumaTresNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.SumaTest.suma.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaAcumulada.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaAcumulada2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaNegativo2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaReal.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaRealNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaTres.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaTresNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Alvaro&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucia/IdeaProjects/JavaDocEj&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Estadistica.executor": "Run",
+    "Gradle.Calculadora [:org.example.MainMenu.main()].executor": "Run",
+    "Gradle.Calculadora [dependencies].executor": "Run",
+    "Gradle.Calculadora [test].executor": "Run",
+    "Gradle.Calculadora.executor": "Run",
+    "Gradle.ConversionUnidadesTest.executor": "Run",
+    "Gradle.EstadisticaTest.executor": "Run",
+    "Gradle.SumaTest.SumaNegativo.executor": "Run",
+    "Gradle.SumaTest.SumaNegativo2.executor": "Run",
+    "Gradle.SumaTest.SumaReal.executor": "Run",
+    "Gradle.SumaTest.SumaRealNegativo.executor": "Run",
+    "Gradle.SumaTest.SumaTres.executor": "Run",
+    "Gradle.SumaTest.SumaTresNegativo.executor": "Run",
+    "Gradle.SumaTest.executor": "Debug",
+    "Gradle.SumaTest.suma.executor": "Run",
+    "Gradle.SumaTest.sumaAcumulada.executor": "Run",
+    "Gradle.SumaTest.sumaAcumulada2.executor": "Run",
+    "Gradle.SumaTest.sumaNegativo.executor": "Run",
+    "Gradle.SumaTest.sumaNegativo2.executor": "Run",
+    "Gradle.SumaTest.sumaReal.executor": "Run",
+    "Gradle.SumaTest.sumaRealNegativo.executor": "Run",
+    "Gradle.SumaTest.sumaTres.executor": "Run",
+    "Gradle.SumaTest.sumaTresNegativo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "EduardoDelRincon",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/DAM/0102_ED/Actividad_2/ActividadGrupal2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Gradle.Calculadora [dependencies]">
     <configuration name="Calculadora [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -258,14 +266,6 @@
         <item itemvalue="Gradle.SumaTest.sumaTres" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
