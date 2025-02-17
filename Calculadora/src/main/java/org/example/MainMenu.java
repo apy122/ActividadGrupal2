@@ -61,7 +61,7 @@ public class MainMenu {
                         Modulo.modMenu();
                         break;
                     case '6':
-                        conv.menu();
+                        conversionUnidades.menu();
                         break;
                     case '7':
                         /*estadistica.menu();*/
