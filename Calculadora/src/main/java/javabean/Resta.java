@@ -45,7 +45,7 @@ public class Resta {
      *
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
-     * @throws IllegalArgumentException si alguno de los parámetros son negativos.
+     * @throws IllegalArgumentException para parámetros negativos.
      * @return Resultado de la resta a - b.
      */
     public static double restaReal(double a, double b) {
@@ -60,7 +60,7 @@ public class Resta {
      *
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
-     * @throws IllegalArgumentException si alguno de los parámetros son negativos.
+     * @throws IllegalArgumentException para parámetros negativos.
      * @return Resultado de la resta de a - b.
      */
     public static int restaEntero(int a, int b) {
@@ -76,7 +76,7 @@ public class Resta {
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
      * @param c Tercer parámetro de entrada.
-     * @throws IllegalArgumentException si alguno de los parámetros son negativos.
+     * @throws IllegalArgumentException para parámetros negativos.
      * @return Resultado de la resta de a - b - c.
      */
     public static double restaTresReal(double a, double b, double c) {
@@ -90,11 +90,14 @@ public class Resta {
      * Resta con valor acumulado.
      *
      * @param totalResta Parámetro de entrada.
+     * @throws IllegalArgumentException para parámetros negativos.
      */
     public void acumulaResta(double totalResta) {
         restaAcumulada -= totalResta;
+        if(restaAcumulada < 0) {
+            throw new IllegalArgumentException("El resultado total no puede ser negativo");
+        }
     }
-
 
     /**
      * Menú resta con cuatro opciones diferentes de resta, además de una de salida del menú resta:
