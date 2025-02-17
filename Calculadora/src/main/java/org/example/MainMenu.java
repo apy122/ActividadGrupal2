@@ -3,6 +3,8 @@ package org.example;
 import javabean.*;
 
 import java.util.Arrays;
+import java.util.IllegalFormatException;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -40,9 +42,12 @@ public class MainMenu {
             try{
                 menuGeneral.forEach( System.out::println);
                 System.out.print( "Elige Opcion: " );
+                if (!sc.hasNextInt()) {
+                    throw new InputMismatchException("Error: Solo se permiten numeros\n");
+                }
                 opcion = sc.nextInt();
                 if(opcion <0|| opcion >9)
-                    throw new IllegalArgumentException( "Opcion no valido." );
+                    throw new IllegalArgumentException( "Opcion no valido. Seleccione un opcion valida entre 0 y 9" );
                 else{
                     switch (opcion) {
                         case 1:
@@ -76,11 +81,20 @@ public class MainMenu {
                             sc.close();
                             return;
                         default:
-                            throw new NumberFormatException( "Opcion no valida" );
+                            throw new IllegalStateException( "Opcion no valida. Solo numeros\n" );
                     }
                 }
+            }catch (InputMismatchException e) {
+                System.out.print( e.getMessage());
+                sc.nextLine ();
             }catch (IllegalArgumentException e){
                 System.out.println( e.getMessage() );
+                sc.nextLine();
+                break;
+            }catch(IllegalStateException e){
+                System.out.println( e.getMessage());
+                sc.nextLine();
+                return;
             }
         }while (true);
     }
