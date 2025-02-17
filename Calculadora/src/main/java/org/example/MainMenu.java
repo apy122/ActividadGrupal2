@@ -55,7 +55,7 @@ public class MainMenu {
                         producto.menu();
                         break;
                     case '4':
-                        /*Cociente.menu();*/
+                        /*cociente.menu();*/
                         break;
                     case '5':
                         Modulo.modMenu();
@@ -64,10 +64,10 @@ public class MainMenu {
                         conv.menu();
                         break;
                     case '7':
-                        /*Estadistica.menu();*/
+                        /*estadistica.menu();*/
                         break;
                     case '8':
-                        /*Trigonometria.menu();*/
+                        /*trigonometria.menu();*/
                         break;
                     case '9':
                         logaritmosyExponenciales.menu();
