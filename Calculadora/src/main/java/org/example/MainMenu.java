@@ -5,17 +5,26 @@ import javabean.*;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+
 public class MainMenu {
     public static List<String> menuGeneral;
     public static Scanner sc = new Scanner( System.in );
-    public static ConversionUnidades conv = new ConversionUnidades();
+    public static  Suma suma = new Suma();
+    Resta  resta = new Resta();
+    public static Producto producto = new Producto();
+    Cociente cociente = new Cociente();
+    Modulo modulo = new Modulo();
+    public static ConversionUnidades conversionUnidades = new ConversionUnidades();
+    static Estadistica estadistica = new Estadistica();
+    Trigonometria trigonometria = new Trigonometria();
+    public static LogaritmosyExponenciales logaritmosyExponenciales= new LogaritmosyExponenciales();
 
     public static void main(String[] args) {
         mainMenu( );
     }
 
     public static void mainMenu() {
-        char opcion;
+        int opcion;
         menuGeneral = Arrays.asList( "Opciones:",
                 "1. SUMAR\n",
                 "2. RESTAR\n",
@@ -28,47 +37,44 @@ public class MainMenu {
                 "9. CALCULO LOGARITMICO Y EXPONENCIAL\n",
                 "0. SALIR\n" );
         do {
-            for (String opcionMen : menuGeneral) {
-                System.out.print( opcionMen );
-            }
+            menuGeneral.forEach( System.out::println);
             System.out.print( "Elige Opcion: " );
-            opcion = sc.next( ).charAt( 0 );
+            opcion = sc.nextInt();
 
             if(opcion <'0'|| opcion >'9')
                 throw new IllegalArgumentException( "Opcion no valido." );
             else{
                 switch (opcion) {
                     case '1':
-                        /*Suma.menu();*/
+                        Suma.pintarMenu();
                         break;
                     case '2':
-                        /*Resta.menu();*/
+                        /*resta.menuResta();*/
                         break;
                     case '3':
-                        /*Producto.menu();*/
+                        producto.menu();
                         break;
                     case '4':
-                        /*Cociente.menu();*/
+                        /*cociente.menu();*/
                         break;
                     case '5':
                         Modulo.modMenu();
                         break;
                     case '6':
-                        conv.menu();
+                        conversionUnidades.menu();
                         break;
                     case '7':
-                        /*Estadistica.menu();*/
+                        estadistica.menu();
                         break;
                     case '8':
-                        /*Trigonometria.menu();*/
+                        /*trigonometria.menu();*/
                         break;
                     case '9':
-                        /*LogaritmosyExponenciales.menu( );*/
+                        logaritmosyExponenciales.menu();
                         break;
                     case '0':
                         sc.close();
                         return;
-
                     default:
                         throw new NumberFormatException( "Opcion no valida" );
                 }

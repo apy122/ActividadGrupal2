@@ -161,8 +161,6 @@ public class Suma {
          * @return Salida de la suma.
          */
         while (opcion != 5);
-
-        leer.close();
     }
     /** Método pintarMenu para elegir la operación a realizar y que lleva al bucle do-while
      * para que se ejecute la suma elegida.

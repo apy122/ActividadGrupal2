@@ -16,7 +16,7 @@ public class LogaritmosyExponenciales {
          */
         public static double logaritmoNatural(double x) {
            if (x <= 0) {
-               throw new IllegalArgumentException("El numero no puede ser menor o igual a cero");
+               throw new IllegalArgumentException("El número no puede ser menor o igual a cero");
            }
             return Math.log(x);
         }
@@ -29,7 +29,7 @@ public class LogaritmosyExponenciales {
          */
         public static double logaritmoBase10(double x) {
             if(x <= 0) {
-                throw new IllegalArgumentException("El numero no puede ser menor o igual a cero");
+                throw new IllegalArgumentException("El número no puede ser menor o igual a cero");
             }
             return Math.log10(x);
         }
@@ -40,17 +40,18 @@ public class LogaritmosyExponenciales {
          * @return e^x
          */
         public static double exponencial(double x) {
+
             return Math.exp(x);
         }
 
     /**
-     * Método para ejecutar el menú para realizar los calculos logaritmicos y exponencial.
+     * Método para ejecutar el menú para realizar los cálculos logarítmicos y exponencial.
      */
 
-    public static void menu() {//Objeto Scanner para leer la entrada del usuari.
+    public static void menu() {//Objeto Scanner para leer la entrada del usuario.
         Scanner sc = new Scanner(System.in);
-        char opcion; //variable para almacenar la opcion del usuario
-        boolean continuar = true; // Controla el bucle para repetir el menu hasta que el ususario dedida salir.
+        char opcion; //variable para almacenar la opción del usuario
+        boolean continuar = true; // Controla el bucle para repetir el menu hasta que el usuario decida salir.
         do {//Menu de opciones.
             System.out.println("1. Logaritmo Natural");
             System.out.println("2. Logaritmo Base10");
@@ -76,17 +77,17 @@ public class LogaritmosyExponenciales {
                         System.out.println("Programa finalizado");
                         continuar = false;
                         break;
+                    case '0':
+                        return;
                     default:
-                        System.out.println("Opcion no valida");
+                        System.out.println("Opción no valida");
 
                 }
             }catch (IllegalArgumentException e) { // Captura las excepciones
                 System.out.println(e.getMessage()); //Lanza mensaje por consola.
             }
 
-        }while (continuar); // Sigue ejecutando el bucle hasta que el ususario pulse Salir.
-
-        sc.close();
+        }while (continuar); // Sigue ejecutando el bucle hasta que el usuario pulse Salir.
 
         }
 
