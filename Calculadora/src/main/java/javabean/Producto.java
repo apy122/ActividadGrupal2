@@ -156,7 +156,7 @@ public class Producto {
                     System.out.print( "El resultado es:"+" "+ potencia( num_A, num_B ));
                     break;
                 case 0:
-                    return;
+                    break;
                 default:
                     throw new IllegalStateException("Unexpected value: " + opcion);
             }

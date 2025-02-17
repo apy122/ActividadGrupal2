@@ -135,6 +135,5 @@ public class Estadistica {
             }
         }
         System.out.println();
-        sc.close();
     }
 }
