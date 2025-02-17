@@ -82,7 +82,7 @@ public class ConversionUnidades {
 
     /** Muestra el menú y ejecuta la opción seleccionada */
     public void menu() {
-        char opcion;
+        int opcion;
         menu = Arrays.asList(
                 "Conversion de unidades:",
                 "1. Celsius a Fahrenheit",
@@ -96,7 +96,7 @@ public class ConversionUnidades {
             menu.forEach(System.out::println);
 
             System.out.print("Ingrese una opción: ");
-            opcion = scanner.next().charAt(0);
+            opcion = scanner.nextInt();
 
             if(opcion <'0' || opcion> '4') {
                 throw new NumberFormatException( "Opcion no valida" );

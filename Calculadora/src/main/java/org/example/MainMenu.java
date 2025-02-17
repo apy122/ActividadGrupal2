@@ -24,7 +24,7 @@ public class MainMenu {
     }
 
     public static void mainMenu() {
-        char opcion;
+        int opcion;
         menuGeneral = Arrays.asList( "Opciones:",
                 "1. SUMAR\n",
                 "2. RESTAR\n",
@@ -39,7 +39,7 @@ public class MainMenu {
         do {
             menuGeneral.forEach( System.out::println);
             System.out.print( "Elige Opcion: " );
-            opcion = sc.next( ).charAt( 0 );
+            opcion = sc.nextInt();
 
             if(opcion <'0'|| opcion >'9')
                 throw new IllegalArgumentException( "Opcion no valido." );
