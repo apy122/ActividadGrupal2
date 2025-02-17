@@ -77,6 +77,8 @@ public class LogaritmosyExponenciales {
                         System.out.println("Programa finalizado");
                         continuar = false;
                         break;
+                    case '0':
+                        return;
                     default:
                         System.out.println("Opción no valida");
 

@@ -10,6 +10,8 @@ public class MainMenu {
     public static List<String> menuGeneral;
     public static Scanner sc = new Scanner( System.in );
     public static ConversionUnidades conv = new ConversionUnidades();
+    public static Producto producto = new Producto();
+    public static LogaritmosyExponenciales logaritmosyExponenciales= new LogaritmosyExponenciales();
 
     public static void main(String[] args) {
         mainMenu( );
@@ -44,7 +46,7 @@ public class MainMenu {
                         /*Resta.menu();*/
                         break;
                     case '3':
-                        /*Producto.menu();*/
+                        producto.menu();
                         break;
                     case '4':
                         /*Cociente.menu();*/
@@ -62,7 +64,7 @@ public class MainMenu {
                         /*Trigonometria.menu();*/
                         break;
                     case '9':
-                        /*LogaritmosyExponenciales.menu( );*/
+                        logaritmosyExponenciales.menu();
                         break;
                     case '0':
                         sc.close();
