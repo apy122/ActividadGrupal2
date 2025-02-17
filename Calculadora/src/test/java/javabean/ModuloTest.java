@@ -44,6 +44,15 @@ public class ModuloTest {
         // 4 % -2 = 0
         assertEquals(0, Modulo.modulo(4, -2));
 
+        // 4 % 3 = 1
+        assertEquals(1, Modulo.modulo(4, 3));
+
+        //4 % -3 = 1
+        assertEquals(1, Modulo.modulo(4, -3));
+
+        //-4 % -3 = -1
+        assertEquals(-1, Modulo.modulo(-4, -3));
+
         // 4 % 0 debe lanzar una excepción ArithmeticException
         assertThrows(ArithmeticException.class, () -> Modulo.modulo(4, 0));
     }
