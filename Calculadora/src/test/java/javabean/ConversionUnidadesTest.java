@@ -33,8 +33,8 @@ public class ConversionUnidadesTest {
     }
 
     @Test
-    void conversionRadianesCelsius() {
-        conv.ConversionRadianesCelsius(1.0);
-        assertEquals(57.29577951308232, conv.ConversionRadianesCelsius(1.0));
+    void conversionRadianesGrados() {
+        conv.ConversionRadianesGrados(1.0);
+        assertEquals(57.29577951308232, conv.ConversionRadianesGrados(1.0));
     }
 }

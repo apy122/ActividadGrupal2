@@ -33,37 +33,46 @@ public class MainMenu {
             }
             System.out.print( "Elige Opcion: " );
             opcion = sc.next( ).charAt( 0 );
-            switch (opcion) {
-                case '1':
-                    /*Suma.menu();*/
-                    break;
-                case '2':
-                    /*Resta.menu();*/
-                    break;
-                case '3':
-                    /*Producto.menu();*/
-                    break;
-                case '4':
-                    /*Cociente.menu();*/
-                    break;
-                case '5':
-                    Modulo.modMenu();
-                    break;
-                case '6':
-                    conv.menu();
-                    break;
-                case '7':
-                    /*Estadistica.menu();*/
-                    break;
-                case '8':
-                    /*Trigonometria.menu();*/
-                    break;
-                case '9':
-                    /*LogaritmosyExponenciales.menu( );*/
-                    break;
-                default:
-                    throw new NumberFormatException( "Opcion no valida" );
+
+            if(opcion <'0'|| opcion >'9')
+                throw new IllegalArgumentException( "Opcion no valido." );
+            else{
+                switch (opcion) {
+                    case '1':
+                        /*Suma.menu();*/
+                        break;
+                    case '2':
+                        /*Resta.menu();*/
+                        break;
+                    case '3':
+                        /*Producto.menu();*/
+                        break;
+                    case '4':
+                        /*Cociente.menu();*/
+                        break;
+                    case '5':
+                        Modulo.modMenu();
+                        break;
+                    case '6':
+                        conv.menu();
+                        break;
+                    case '7':
+                        /*Estadistica.menu();*/
+                        break;
+                    case '8':
+                        /*Trigonometria.menu();*/
+                        break;
+                    case '9':
+                        /*LogaritmosyExponenciales.menu( );*/
+                        break;
+                    case '0':
+                        sc.close();
+                        return;
+
+                    default:
+                        throw new NumberFormatException( "Opcion no valida" );
+                }
             }
-        }while (opcion != 0) ;
+        }while (true);
     }
 }
