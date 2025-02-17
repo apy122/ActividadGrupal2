@@ -15,7 +15,7 @@ public class MainMenu {
     Cociente cociente = new Cociente();
     Modulo modulo = new Modulo();
     public static ConversionUnidades conversionUnidades = new ConversionUnidades();
-    Estadistica est = new Estadistica();
+    static Estadistica estadistica = new Estadistica();
     Trigonometria trigonometria = new Trigonometria();
     public static LogaritmosyExponenciales logaritmosyExponenciales= new LogaritmosyExponenciales();
 
@@ -46,10 +46,10 @@ public class MainMenu {
             else{
                 switch (opcion) {
                     case '1':
-                        /*Suma.menu();*/
+                        Suma.pintarMenu();
                         break;
                     case '2':
-                        /*Resta.menu();*/
+                        /*resta.menuResta();*/
                         break;
                     case '3':
                         producto.menu();
@@ -64,7 +64,7 @@ public class MainMenu {
                         conversionUnidades.menu();
                         break;
                     case '7':
-                        /*estadistica.menu();*/
+                        estadistica.menu();
                         break;
                     case '8':
                         /*trigonometria.menu();*/
@@ -75,7 +75,6 @@ public class MainMenu {
                     case '0':
                         sc.close();
                         return;
-
                     default:
                         throw new NumberFormatException( "Opcion no valida" );
                 }

@@ -89,8 +89,6 @@ public class LogaritmosyExponenciales {
 
         }while (continuar); // Sigue ejecutando el bucle hasta que el usuario pulse Salir.
 
-        sc.close();
-
         }
 
     }

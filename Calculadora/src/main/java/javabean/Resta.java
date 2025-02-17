@@ -27,6 +27,7 @@ public class Resta {
      * Constructor sin parámetros
      */
     public Resta() {
+        super();
     }
 
     /**
@@ -157,7 +158,6 @@ public class Resta {
 
         }
         while (opcionResta != 5);
-        leer.close();
     }
 
 
