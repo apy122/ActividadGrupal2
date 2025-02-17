@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Clase que proporciona métodos para realizar operaciones de producto y potencia
  * sobre números reales y enteros.
- * @author apy122
+ * @author Eduardo
  * @version 1.0
  */
 public class Producto {
