@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="arreglando test">
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="arreglando  problema en gradle scanner, menu conversionUnidad y menu general">
       <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculadora/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/build.gradle" afterDir="false" />
@@ -390,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739799086796</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="arreglando  problema en gradle scanner, menu conversionUnidad y menu general">
+      <option name="closed" value="true" />
+      <created>1739801605149</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739801605149</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,6 +427,7 @@
     <MESSAGE value="Cambios realizados en los constructores." />
     <MESSAGE value="Cambios en las excepciones de la resta." />
     <MESSAGE value="arreglando test" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglando test" />
+    <MESSAGE value="arreglando  problema en gradle scanner, menu conversionUnidad y menu general" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglando  problema en gradle scanner, menu conversionUnidad y menu general" />
   </component>
 </project>
