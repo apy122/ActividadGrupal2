@@ -45,11 +45,11 @@ public class Resta {
      *
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
-     * @throws IllegalArgumentException si alguno de los parámetros son negativos.
+     * @throws IllegalArgumentException para parámetros negativos.
      * @return Resultado de la resta a - b.
      */
     public static double restaReal(double a, double b) {
-        if((a>=0 && b<0) || (a<0 && b>0)) {
+        if((a>0 && b<0) || (a<0 && b>0)) {
             throw new IllegalArgumentException("El número no puede ser negativo");
         }
         return a - b;
@@ -60,11 +60,11 @@ public class Resta {
      *
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
-     * @throws IllegalArgumentException si alguno de los parámetros son negativos.
+     * @throws IllegalArgumentException para parámetros negativos.
      * @return Resultado de la resta de a - b.
      */
     public static int restaEntero(int a, int b) {
-        if((a>=0 && b<0) || (a<0 && b>0)) {
+        if((a>0 && b<0) || (a<0 && b>0)) {
             throw new IllegalArgumentException("El número no puede ser negativo");
         }
         return a - b;
@@ -76,11 +76,11 @@ public class Resta {
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
      * @param c Tercer parámetro de entrada.
-     * @throws IllegalArgumentException si alguno de los parámetros son negativos.
+     * @throws IllegalArgumentException para parámetros negativos.
      * @return Resultado de la resta de a - b - c.
      */
     public static double restaTresReal(double a, double b, double c) {
-        if((a>=0 && b<0) || (a<0 && b>0)) {
+        if((a<0 && b>0 && c>0) || (a>0 && b<0 && c<0)) {
             throw new IllegalArgumentException("El número no puede ser negativo");
         }
         return a - b - c;
@@ -90,9 +90,13 @@ public class Resta {
      * Resta con valor acumulado.
      *
      * @param totalResta Parámetro de entrada.
+     * @throws IllegalArgumentException para parámetros negativos.
      */
     public void acumulaResta(double totalResta) {
         restaAcumulada -= totalResta;
+        if(restaAcumulada < 0) {
+            throw new IllegalArgumentException("El resultado total no puede ser negativo");
+        }
     }
 
     /**
@@ -148,7 +152,6 @@ public class Resta {
                     System.out.println("Introduce los números que quieras restar");
                     double restaAcumulada = leer.nextDouble();
                     System.out.println("La resta de todos los números acumulados es: " + resta.restaAcumulada);
-
                     break;
             }
 
