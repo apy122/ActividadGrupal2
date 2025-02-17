@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Cambios en las excepciones de la resta.">
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="arreglando  problema en gradle scanner, menu conversionUnidad y menu general">
       <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Resta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Resta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/ConversionUnidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/ConversionUnidades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/org/example/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/org/example/MainMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,69 +80,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Estadistica.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Calculadora [:org.example.MainMenu.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ConversionUnidadesTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.EstadisticaTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.SumaNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.SumaNegativo2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.SumaReal.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.SumaRealNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.SumaTres.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.SumaTresNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.SumaTest.suma.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaAcumulada.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaAcumulada2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaNegativo2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaReal.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaRealNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaTres.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SumaTest.sumaTresNegativo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Diego&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucia/IdeaProjects/JavaDocEj&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Estadistica.executor": "Run",
+    "Gradle.Calculadora [:org.example.MainMenu.main()].executor": "Run",
+    "Gradle.Calculadora [dependencies].executor": "Run",
+    "Gradle.Calculadora [test].executor": "Run",
+    "Gradle.Calculadora.executor": "Run",
+    "Gradle.ConversionUnidadesTest.executor": "Run",
+    "Gradle.EstadisticaTest.executor": "Run",
+    "Gradle.SumaTest.SumaNegativo.executor": "Run",
+    "Gradle.SumaTest.SumaNegativo2.executor": "Run",
+    "Gradle.SumaTest.SumaReal.executor": "Run",
+    "Gradle.SumaTest.SumaRealNegativo.executor": "Run",
+    "Gradle.SumaTest.SumaTres.executor": "Run",
+    "Gradle.SumaTest.SumaTresNegativo.executor": "Run",
+    "Gradle.SumaTest.executor": "Debug",
+    "Gradle.SumaTest.suma.executor": "Run",
+    "Gradle.SumaTest.sumaAcumulada.executor": "Run",
+    "Gradle.SumaTest.sumaAcumulada2.executor": "Run",
+    "Gradle.SumaTest.sumaNegativo.executor": "Run",
+    "Gradle.SumaTest.sumaNegativo2.executor": "Run",
+    "Gradle.SumaTest.sumaReal.executor": "Run",
+    "Gradle.SumaTest.sumaRealNegativo.executor": "Run",
+    "Gradle.SumaTest.sumaTres.executor": "Run",
+    "Gradle.SumaTest.sumaTresNegativo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Alvaro",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/lucia/IdeaProjects/JavaDocEj",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.SumaTest.sumaAcumulada2">
-    <configuration name="SumaTest.sumaAcumulada" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Calculadora [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;javabean.SumaTest.sumaAcumulada&quot;" />
+            <option value="dependencies" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Calculadora [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="SumaTest.sumaAcumulada2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -157,30 +182,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;javabean.SumaTest.sumaAcumulada2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SumaTest.sumaRealNegativo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;javabean.SumaTest.sumaRealNegativo&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -250,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Calculadora [dependencies]" />
+        <item itemvalue="Gradle.Calculadora [test]" />
+        <item itemvalue="Gradle.SumaTest.sumaAcumulada2" />
         <item itemvalue="Gradle.SumaTest.sumaTresNegativo" />
         <item itemvalue="Gradle.SumaTest.sumaTres" />
-        <item itemvalue="Gradle.SumaTest.sumaRealNegativo" />
-        <item itemvalue="Gradle.SumaTest.sumaAcumulada2" />
-        <item itemvalue="Gradle.SumaTest.sumaAcumulada" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +382,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739790959896</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="arreglando test">
+      <option name="closed" value="true" />
+      <created>1739799086796</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739799086796</updated>
+    </task>
+    <task id="LOCAL-00014" summary="arreglando  problema en gradle scanner, menu conversionUnidad y menu general">
+      <option name="closed" value="true" />
+      <created>1739801605149</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739801605149</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,6 +426,8 @@
     <MESSAGE value="arreglando menu  de mi clase" />
     <MESSAGE value="Cambios realizados en los constructores." />
     <MESSAGE value="Cambios en las excepciones de la resta." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambios en las excepciones de la resta." />
+    <MESSAGE value="arreglando test" />
+    <MESSAGE value="arreglando  problema en gradle scanner, menu conversionUnidad y menu general" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglando  problema en gradle scanner, menu conversionUnidad y menu general" />
   </component>
 </project>

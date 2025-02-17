@@ -28,9 +28,7 @@ public class MainMenu {
                 "9. CALCULO LOGARITMICO Y EXPONENCIAL\n",
                 "0. SALIR\n" );
         do {
-            for (String opcionMen : menuGeneral) {
-                System.out.print( opcionMen );
-            }
+            menuGeneral.forEach( System.out::println);
             System.out.print( "Elige Opcion: " );
             opcion = sc.next( ).charAt( 0 );
 
