@@ -7,14 +7,7 @@
     <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Cambios en las excepciones de la resta.">
       <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/ConversionUnidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/ConversionUnidades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Estadistica.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Estadistica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Modulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Resta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Resta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/org/example/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/org/example/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/test/java/javabean/ConversionUnidadesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/test/java/javabean/ConversionUnidadesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/test/java/javabean/SumaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/test/java/javabean/SumaTest.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +106,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging Aless&quot;,
+
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/lucia/IdeaProjects/JavaDocEj&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -382,15 +375,7 @@
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
       <updated>1739746116317</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Cambios realizados en los constructores.">
-      <option name="closed" value="true" />
-      <created>1739790959896</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1739790959896</updated>
-    </task>
+
     <option name="localTasksCounter" value="13" />
     <servers />
   </component>
@@ -419,7 +404,6 @@
     <MESSAGE value="arreglando menu  de mi clase" />
     <MESSAGE value="Cambios realizados en los constructores." />
     <MESSAGE value="Cambios en las excepciones de la resta." />
-    <MESSAGE value="Corrección ortográfica de algunos comentario en la clase LogaritmoYExponenciales y creación de ModuloTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrección ortográfica de algunos comentario en la clase LogaritmoYExponenciales y creación de ModuloTest" />
+
   </component>
 </project>
