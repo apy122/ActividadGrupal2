@@ -82,58 +82,62 @@ public class ConversionUnidades {
 
     /** Muestra el menú y ejecuta la opción seleccionada */
     public void menu() {
-        int opcion;
-        menu = Arrays.asList(
-                "Conversion de unidades:",
-                "1. Celsius a Fahrenheit",
-                "2. Fahrenheit a Celsius",
-                "3. Grados a Radianes",
-                "4. Radianes a Grados",
-                "0. Salir"
-        );
+        try {
+            int opcion;
+            menu = Arrays.asList(
+                    "Conversion de unidades:",
+                    "1. Celsius a Fahrenheit",
+                    "2. Fahrenheit a Celsius",
+                    "3. Grados a Radianes",
+                    "4. Radianes a Grados",
+                    "0. Salir"
+            );
 
-        do {
-            menu.forEach(System.out::println);
+            do {
+                menu.forEach(System.out::println);
 
-            System.out.print("Ingrese una opción: ");
-            opcion = scanner.nextInt();
+                System.out.print("Ingrese una opción: ");
+                opcion = scanner.nextInt();
 
-            if(opcion <'0' || opcion> '4') {
-                throw new NumberFormatException( "Opcion no valida" );
+                if(opcion <0|| opcion> 4) {
+                    throw new NumberFormatException( "Opcion no valida" );
 
-            } else{
-                switch (opcion) {
-                    case '1':
-                        System.out.print("Ingrese los grados Celsius: ");
-                        celsius = scanner.nextDouble();
-                        fahrenheit = ConversionCelsiusFahrenheit(celsius);
-                        System.out.println("Resultado: " + fahrenheit + " °F");
-                        break;
-                    case '2':
-                        System.out.print("Ingrese los grados Fahrenheit: ");
-                        fahrenheit = scanner.nextDouble();
-                        celsius = ConversionFahrenheitCelsius(fahrenheit);
-                        System.out.println("Resultado: " + celsius + " °C");
-                        break;
-                    case '3':
-                        System.out.print("Ingrese los grados: ");
-                        grados = scanner.nextDouble();
-                        radianes = ConversionGradosRadianes(grados);
-                        System.out.println("Resultado: " + radianes + " radianes");
-                        break;
-                    case '4':
-                        System.out.print("Ingrese los radianes: ");
-                        radianes = scanner.nextDouble();
-                        grados = ConversionRadianesGrados(radianes);
-                        System.out.println("Resultado: " + grados + " grados");
-                        break;
-                    case '0':
-                        return;
-                    default:
-                        System.out.println("Opción no válida. Intente de nuevo.");
+                } else{
+                    switch (opcion) {
+                        case 1:
+                            System.out.print("Ingrese los grados Celsius: ");
+                            celsius = scanner.nextDouble();
+                            fahrenheit = ConversionCelsiusFahrenheit(celsius);
+                            System.out.println("Resultado: " + fahrenheit + " °F");
+                            break;
+                        case 2:
+                            System.out.print("Ingrese los grados Fahrenheit: ");
+                            fahrenheit = scanner.nextDouble();
+                            celsius = ConversionFahrenheitCelsius(fahrenheit);
+                            System.out.println("Resultado: " + celsius + " °C");
+                            break;
+                        case 3:
+                            System.out.print("Ingrese los grados: ");
+                            grados = scanner.nextDouble();
+                            radianes = ConversionGradosRadianes(grados);
+                            System.out.println("Resultado: " + radianes + " radianes");
+                            break;
+                        case 4:
+                            System.out.print("Ingrese los radianes: ");
+                            radianes = scanner.nextDouble();
+                            grados = ConversionRadianesGrados(radianes);
+                            System.out.println("Resultado: " + grados + " grados");
+                            break;
+                        case 0:
+                            return;
+                        default:
+                            System.out.println("Opción no válida. Intente de nuevo.");
+                    }
                 }
-            }
-        } while (true);
+            } while (true);
+        }catch (NumberFormatException e) {
+            System.out.println( e.getMessage());
+        }
     }
     /**
      * Convierte grados Celsius a Fahrenheit.
