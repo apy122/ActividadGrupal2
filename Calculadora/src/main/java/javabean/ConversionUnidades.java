@@ -89,7 +89,7 @@ public class ConversionUnidades {
                 "2. Fahrenheit a Celsius",
                 "3. Grados a Radianes",
                 "4. Radianes a Grados",
-                "5. Salir"
+                "0. Salir"
         );
 
         do {
@@ -122,13 +122,10 @@ public class ConversionUnidades {
                     grados = ConversionRadianesGrados(radianes);
                     System.out.println("Resultado: " + grados + " grados");
                     break;
-                case '5':
-                    System.out.println("Saliendo del conversor...");
-                    break;
                 default:
                     System.out.println("Opción no válida. Intente de nuevo.");
             }
-        } while (opcion != '5');
+        } while (opcion != '0');
     }
     /**
      * Convierte grados Celsius a Fahrenheit.
