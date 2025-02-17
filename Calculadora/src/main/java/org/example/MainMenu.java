@@ -7,61 +7,72 @@ import java.util.List;
 import java.util.Scanner;
 public class MainMenu {
     public static List<String> menuGeneral;
-    public static Scanner sc = new Scanner(System.in);
-    public static ConversionUnidades conv= new ConversionUnidades( );
+    public static Scanner sc = new Scanner( System.in );
+    public static ConversionUnidades conv = new ConversionUnidades();
+
     public static void main(String[] args) {
-        mainMenu();
+        mainMenu( );
     }
 
     public static void mainMenu() {
-        Scanner sc = new Scanner(System.in);
         char opcion;
-
+        menuGeneral = Arrays.asList( "Opciones:",
+                "1. SUMAR\n",
+                "2. RESTAR\n",
+                "3. MULTIPLICAR\n",
+                "4. DIVIDIR\n",
+                "5. CALCULAR MODULO\n",
+                "6. CONVERSION DE UNIDADES\n",
+                "7. ESTADISTICA\n",
+                "8. TRIGONOMETRIA\n",
+                "9. CALCULO LOGARITMICO Y EXPONENCIAL\n",
+                "0. SALIR\n" );
         do {
-            menuGeneral= Arrays.asList("Opciones:",
-                    "1. SUMAR",
-                    "2. RESTAR",
-                    "3. MULTIPLICAR",
-                    "4. DIVIDIR",
-                    "5. CALCULAR MODULO",
-                    "6. CONVERSION DE UNIDADES",
-                    "7. ESTADISTICA",
-                    "8. TRIGONOMETRIA",
-                    "9. CALCULO LOGARITMICO Y EXPONENCIAL",
-                    "0. SALIR");
-
-            opcion = sc.next().charAt(0);
-            switch (opcion) {
-                case '1':
-                    /*Suma.menu();*/
-                    break;
-                case '2':
-                    /*Resta.menu();*/
-                    break;
-                case '3':
-                    /*Producto.menu();*/
-                    break;
-                case '4':
-                    /*Cociente.menu();*/
-                    break;
-                case '5':
-                    /*Modulo.menu();*/
-                    break;
-                case'6':
-                    conv.menu();
-                    break;
-                case'7':
-                    /*Estadistica.menu();*/
-                    break;
-                case'8':
-                    /*Trigonometria.menu();*/
-                    break;
-                case '9':
-                    LogaritmosyExponenciales.menu();
-                    break;
-                default:
-                    throw new NumberFormatException("Opcion no valida");
+            for (String opcionMen : menuGeneral) {
+                System.out.print( opcionMen );
             }
-        }while(sc.nextInt() !=0);
+            System.out.print( "Elige Opcion: " );
+            opcion = sc.next( ).charAt( 0 );
+
+            if(opcion <'0'|| opcion >'9')
+                throw new IllegalArgumentException( "Opcion no valido." );
+            else{
+                switch (opcion) {
+                    case '1':
+                        /*Suma.menu();*/
+                        break;
+                    case '2':
+                        /*Resta.menu();*/
+                        break;
+                    case '3':
+                        /*Producto.menu();*/
+                        break;
+                    case '4':
+                        /*Cociente.menu();*/
+                        break;
+                    case '5':
+                        Modulo.modMenu();
+                        break;
+                    case '6':
+                        conv.menu();
+                        break;
+                    case '7':
+                        /*Estadistica.menu();*/
+                        break;
+                    case '8':
+                        /*Trigonometria.menu();*/
+                        break;
+                    case '9':
+                        /*LogaritmosyExponenciales.menu( );*/
+                        break;
+                    case '0':
+                        sc.close();
+                        return;
+
+                    default:
+                        throw new NumberFormatException( "Opcion no valida" );
+                }
+            }
+        }while (true);
     }
-    }
+}
