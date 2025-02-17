@@ -18,8 +18,15 @@ public class Resta {
     /**
      * Constructor con el parámetro de restaAcumulada
      */
-    public Resta() {
+
+    public Resta(int restaAcumulada) {
         this.restaAcumulada = restaAcumulada;
+    }
+
+    /**
+     * Constructor sin parámetros
+     */
+    public Resta() {
     }
 
     /**
