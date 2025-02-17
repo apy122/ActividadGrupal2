@@ -9,8 +9,14 @@ import java.util.Scanner;
 public class MainMenu {
     public static List<String> menuGeneral;
     public static Scanner sc = new Scanner( System.in );
-    public static ConversionUnidades conv = new ConversionUnidades();
+    public static  Suma suma = new Suma();
+    Resta  resta = new Resta();
     public static Producto producto = new Producto();
+    Cociente cociente = new Cociente();
+    Modulo modulo = new Modulo();
+    public static ConversionUnidades conversionUnidades = new ConversionUnidades();
+    Estadistica est = new Estadistica();
+    Trigonometria trigonometria = new Trigonometria();
     public static LogaritmosyExponenciales logaritmosyExponenciales= new LogaritmosyExponenciales();
 
     public static void main(String[] args) {
