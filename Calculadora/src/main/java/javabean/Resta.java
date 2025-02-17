@@ -5,7 +5,7 @@ import java.util.Scanner;
 /** La clase Resta proporcionará métodos relacionados con las restas de una calculadora.
  *
  * @author Diego Sainz (aka diesainzg https://github.com/Diesainzg)
- * @version 1.2
+ * @version 1.3
  */
 
 public class Resta {
@@ -38,9 +38,13 @@ public class Resta {
      *
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
+     * @throws IllegalArgumentException si alguno de los parámetros son negativos.
      * @return Resultado de la resta a - b.
      */
-    public double restaReal(double a, double b) {
+    public static double restaReal(double a, double b) {
+        if (a <= 0 || b <= 0) {
+            throw new IllegalArgumentException("El número no puede ser negativo");
+        }
         return a - b;
     }
 
@@ -49,9 +53,13 @@ public class Resta {
      *
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
+     * @throws IllegalArgumentException si alguno de los parámetros son negativos.
      * @return Resultado de la resta de a - b.
      */
-    public int restaEntero(int a, int b) {
+    public static int restaEntero(int a, int b) {
+        if (a <= 0 || b <= 0) {
+            throw new IllegalArgumentException("El número no puede ser negativo");
+        }
         return a - b;
     }
 
@@ -61,9 +69,13 @@ public class Resta {
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
      * @param c Tercer parámetro de entrada.
+     * @throws IllegalArgumentException si alguno de los parámetros son negativos.
      * @return Resultado de la resta de a - b - c.
      */
-    public double restaTresReal(double a, double b, double c) {
+    public static double restaTresReal(double a, double b, double c) {
+        if (a <= 0 || b <= 0 || c <= 0) {
+            throw new IllegalArgumentException("El número no puede ser negativo");
+        }
         return a - b - c;
     }
 
@@ -132,7 +144,6 @@ public class Resta {
 
                     break;
             }
-
 
         }
         while (opcionResta != 5);
