@@ -16,12 +16,12 @@ public class Producto {
     int num1, num2;
     double num_A, num_B, num_C, base, exponente;
 
-    /*Constructor vacio/
+    /**Constructor vacio*/
     public Producto() {
         super();
     }
 
-    /*Get and set/
+    /**Get and set*/
     public List<String> getMenu() {
         return menu;
     }
@@ -110,7 +110,7 @@ public class Producto {
                 '}';
     }
 
-    /*Crea y muestra el menu/
+    /**Crea y muestra el menu*/
     public void menu(){
         int opcion;
         menu= Arrays.asList(
