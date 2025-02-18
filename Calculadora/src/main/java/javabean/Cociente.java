@@ -20,7 +20,7 @@ import java.util.Scanner;
  *}</pre>
  *
  * @author Javier Calvo Hidalgo (aka javier.calvo962@comunidadunir.net - https://github.com/Jacahi10)
- * @version 1.0
+ * @version 1.1
  */
 public class Cociente {
 
@@ -182,7 +182,7 @@ public class Cociente {
      * Se crea también una variable int del Scanner para poder seleccionar una opción del menú.
      */
 
-    public static void MenuResta() {
+    public static void menuCociente() {
         Scanner leer = new Scanner(System.in);
         Cociente cociente = new Cociente();
         int opcionCociente;
