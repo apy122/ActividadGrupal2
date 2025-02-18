@@ -5,7 +5,7 @@ import java.util.Scanner;
 /** La clase Resta proporcionará métodos relacionados con las restas de una calculadora.
  *
  * @author Diego Sainz (aka diesainzg https://github.com/Diesainzg)
- * @version 1.4
+ * @version 1.5
  */
 
 public class Resta {
@@ -94,10 +94,13 @@ public class Resta {
      * @throws IllegalArgumentException para parámetros negativos.
      */
     public void acumulaResta(double totalResta) {
-        restaAcumulada -= totalResta;
         if(restaAcumulada < 0) {
+            throw new IllegalArgumentException("La resta acumulada no puede ser negativa");
+        }
+        if(totalResta < 0) {
             throw new IllegalArgumentException("El resultado total no puede ser negativo");
         }
+        restaAcumulada -= totalResta;
     }
 
     /**
@@ -110,7 +113,7 @@ public class Resta {
      * Se incluye también el objeto resta para poder realizar las operaciones.
      * Se crea también una variable int para poder seleccionar una opción del menú.
      */
-    public static void MenuResta() {
+    public static void menuResta() {
         Scanner leer = new Scanner(System.in);
         Resta resta = new Resta();
         int opcionResta;
@@ -152,14 +155,14 @@ public class Resta {
                 case 4:
                     System.out.println("Introduce los números que quieras restar");
                     double restaAcumulada = leer.nextDouble();
-                    System.out.println("La resta de todos los números acumulados es: " + resta.restaAcumulada);
+                    resta.acumulaResta(restaAcumulada);
+                    System.out.println("La resta de todos los números acumulados es: " + resta.getRestaAcumulada());
                     break;
             }
 
         }
         while (opcionResta != 5);
     }
-
 
 }
 
