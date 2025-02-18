@@ -20,7 +20,7 @@ import java.util.Scanner;
  *}</pre>
  *
  * @author Javier Calvo Hidalgo (aka javier.calvo962@comunidadunir.net - https://github.com/Jacahi10)
- * @version 1.1
+ * @version 1.2
  */
 public class Cociente {
 
@@ -133,7 +133,13 @@ public class Cociente {
      */
 
     public int cocienteEntero(int dividendoEntero, int divisorEntero) {
-        return dividendoEntero / divisorEntero;
+        if (dividendoEntero < 0) {
+            throw new IllegalArgumentException("El dividendo no puede ser negativo");
+        }
+        else if (divisorEntero <= 0) {
+            throw new IllegalArgumentException("El divisor no puede ser igual o menor que 0");
+        }
+        return Math.round(dividendoEntero / divisorEntero);
     }
 
     /**
@@ -145,6 +151,12 @@ public class Cociente {
      */
 
     public double cocienteReal(double dividendoReal, double divisorReal) {
+        if (dividendoReal < 0) {
+            throw new IllegalArgumentException("El dividento no puede ser negativo");
+        }
+        else if (divisorReal <= 0) {
+            throw new IllegalArgumentException("El divisor no puede ser igual o menor que 0");
+        }
         return (dividendoReal / divisorReal) * 1.0;
     }
 
@@ -156,6 +168,9 @@ public class Cociente {
      */
 
     public double inverso(double inverso) {
+        if (inverso < 0) {
+            throw new IllegalArgumentException("El inverso no puede ser negativo");
+        }
         double i = -inverso;
         return i;
     }
@@ -168,6 +183,9 @@ public class Cociente {
      */
 
     public double raiz(double raiz) {
+        if (raiz < 0) {
+            throw new IllegalArgumentException("La raíz no puede ser negativa");
+        }
         return Math.sqrt(raiz);
     }
 
@@ -209,7 +227,8 @@ public class Cociente {
                     System.out.println("El resultado del cociente " + dividendoReal1 + " entre " + divisorReal1 + " es: " + cociente.cocienteReal(dividendoReal1,divisorReal1));
                     break;
                 case 2:
-                    System.out.println("Introduce el dividendo y divisor enteros para realizar el cociente: ");
+                    System.out.println("Introduce el dividendo y divisor enteros para realizar el cociente:\nEl resto de" +
+                            "esta división será ignorado");
                     int dividendoEntero1 = leer.nextInt();
                     int divisorEntero1 = leer.nextInt();
                     System.out.println("El resultado del cociente " + dividendoEntero1 + " entre " + divisorEntero1 + " es: " + cociente.cocienteEntero(dividendoEntero1,divisorEntero1));

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="ADD: se añade clase cociente">
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Cambios en las excepciones de la resta.">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Cociente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Cociente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/org/example/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/org/example/MainMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,24 +51,24 @@
     &quot;assignee&quot;: &quot;apy122&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/apy122/ActividadGrupal2.git&quot;,
-    &quot;accountId&quot;: &quot;18e4ab2e-bbc8-49d5-aed7-d64884ae17a2&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/apy122/ActividadGrupal2.git",
+    "accountId": "18e4ab2e-bbc8-49d5-aed7-d64884ae17a2"
   },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
     },
-    &quot;owner&quot;: &quot;apy122&quot;,
-    &quot;repository&quot;: &quot;ActividadGrupal2&quot;
+    "owner": "apy122",
+    "repository": "ActividadGrupal2"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -82,12 +82,8 @@
   "keyToString": {
     "Application.Estadistica.executor": "Run",
     "Gradle.Calculadora [:org.example.MainMenu.main()].executor": "Run",
-    "Gradle.Calculadora [dependencies].executor": "Run",
-    "Gradle.Calculadora [test].executor": "Run",
-    "Gradle.Calculadora.executor": "Run",
     "Gradle.ConversionUnidadesTest.executor": "Run",
     "Gradle.EstadisticaTest.executor": "Run",
-    "Gradle.ProductoTest.executor": "Run",
     "Gradle.SumaTest.SumaNegativo.executor": "Run",
     "Gradle.SumaTest.SumaNegativo2.executor": "Run",
     "Gradle.SumaTest.SumaReal.executor": "Run",
@@ -118,44 +114,33 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "profiler.jvm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainMenu">
-    <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MainMenu" />
-      <module name="Calculadora.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Calculadora [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager">
+    <configuration name="SumaTest.sumaAcumulada" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;javabean.SumaTest.sumaAcumulada&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="SumaTest.sumaAcumulada2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -172,6 +157,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;javabean.SumaTest.sumaAcumulada2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SumaTest.sumaRealNegativo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;javabean.SumaTest.sumaRealNegativo&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -241,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainMenu" />
-        <item itemvalue="Gradle.Calculadora [dependencies]" />
+        <item itemvalue="Gradle.SumaTest.sumaAcumulada2" />
         <item itemvalue="Gradle.SumaTest.sumaTresNegativo" />
         <item itemvalue="Gradle.SumaTest.sumaTres" />
-        <item itemvalue="Gradle.SumaTest.sumaAcumulada2" />
+        <item itemvalue="Gradle.SumaTest.sumaRealNegativo" />
+        <item itemvalue="Gradle.SumaTest.sumaAcumulada" />
       </list>
     </recent_temporary>
   </component>
@@ -275,12 +284,7 @@
       <workItem from="1739740530958" duration="5619000" />
       <workItem from="1739795379038" duration="255000" />
       <workItem from="1739797281071" duration="1119000" />
-      <workItem from="1739821683753" duration="360000" />
-      <workItem from="1739824817100" duration="291000" />
-      <workItem from="1739863102705" duration="27000" />
-      <workItem from="1739870287227" duration="1381000" />
-      <workItem from="1739872215661" duration="125000" />
-      <workItem from="1739876098062" duration="1335000" />
+      <workItem from="1739879189460" duration="2327000" />
     </task>
     <task id="LOCAL-00001" summary="anadiendo paquete de testing">
       <option name="closed" value="true" />
@@ -378,95 +382,7 @@
       <option name="project" value="LOCAL" />
       <updated>1739790959896</updated>
     </task>
-    <task id="LOCAL-00013" summary="arreglando test">
-      <option name="closed" value="true" />
-      <created>1739799086796</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1739799086796</updated>
-    </task>
-    <task id="LOCAL-00014" summary="arreglando  problema en gradle scanner, menu conversionUnidad y menu general">
-      <option name="closed" value="true" />
-      <created>1739801605149</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1739801605149</updated>
-    </task>
-    <task id="LOCAL-00015" summary="arreglando  problema en gradle scanner, menu conversionUnidad y menu general">
-      <option name="closed" value="true" />
-      <created>1739821801709</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1739821801709</updated>
-    </task>
-    <task id="LOCAL-00016" summary="testeando Producto">
-      <option name="closed" value="true" />
-      <created>1739821991991</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1739821991991</updated>
-    </task>
-    <task id="LOCAL-00017" summary="modificando menu principal">
-      <option name="closed" value="true" />
-      <created>1739823454525</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1739823454525</updated>
-    </task>
-    <task id="LOCAL-00018" summary="modificando menu principal">
-      <option name="closed" value="true" />
-      <created>1739823490548</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1739823490548</updated>
-    </task>
-    <task id="LOCAL-00019" summary="modificando menu principal">
-      <option name="closed" value="true" />
-      <created>1739823580743</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1739823580743</updated>
-    </task>
-    <task id="LOCAL-00020" summary="modificando menu principal">
-      <option name="closed" value="true" />
-      <created>1739824382651</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1739824382651</updated>
-    </task>
-    <task id="LOCAL-00021" summary="modificando cosas del int opcion y metiendo try y catch">
-      <option name="closed" value="true" />
-      <created>1739832291687</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1739832291687</updated>
-    </task>
-    <task id="LOCAL-00022" summary="modificando cosas del int opcion y metiendo try y catch">
-      <option name="closed" value="true" />
-      <created>1739835591279</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1739835591279</updated>
-    </task>
-    <task id="LOCAL-00023" summary="ADD: se añade clase cociente">
-      <option name="closed" value="true" />
-      <created>1739874882067</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1739874882067</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +399,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="Diego" />
                       </list>
                     </value>
                   </entry>
@@ -506,18 +422,6 @@
     <MESSAGE value="arreglando menu  de mi clase" />
     <MESSAGE value="Cambios realizados en los constructores." />
     <MESSAGE value="Cambios en las excepciones de la resta." />
-    <MESSAGE value="arreglando test" />
-    <MESSAGE value="arreglando  problema en gradle scanner, menu conversionUnidad y menu general" />
-    <MESSAGE value="testeando Producto" />
-    <MESSAGE value="modificando menu principal" />
-    <MESSAGE value="modificando parametro opcuion en main y conversionUnidad" />
-    <MESSAGE value="modificando cosas del int opcion y metiendo try y catch" />
-    <MESSAGE value="ADD: primer intento" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADD: primer intento" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Calculadora$MainMenu.ic" NAME="MainMenu Coverage Results" MODIFIED="1739830809161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>org.example.*</FILTER>
-    </SUITE>
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios en las excepciones de la resta." />
   </component>
 </project>
