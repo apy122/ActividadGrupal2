@@ -1,6 +1,7 @@
 package javabean;
 
 
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -12,6 +13,7 @@ import java.util.Scanner;
 
 public class Trigonometria {
 
+    private List<String> menu;
     private double seno, coseno, tangente, angulo;
 
     //constructor vacío
