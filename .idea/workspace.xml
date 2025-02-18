@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="modificando menu principal">
+    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="modificando cosas del int opcion y metiendo try y catch">
       <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/test/java/javabean/RestaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/test/java/javabean/RestaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "#19 on Lucia",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lucia/IdeaProjects/JavaDocEj",
     "node.js.detected.package.eslint": "true",
@@ -118,7 +117,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -286,6 +285,8 @@
       <workItem from="1739797281071" duration="1119000" />
       <workItem from="1739821683753" duration="360000" />
       <workItem from="1739824817100" duration="291000" />
+      <workItem from="1739863102705" duration="27000" />
+      <workItem from="1739870287227" duration="1381000" />
     </task>
     <task id="LOCAL-00001" summary="anadiendo paquete de testing">
       <option name="closed" value="true" />
@@ -447,7 +448,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739824382651</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="modificando cosas del int opcion y metiendo try y catch">
+      <option name="closed" value="true" />
+      <created>1739832291687</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1739832291687</updated>
+    </task>
+    <task id="LOCAL-00022" summary="modificando cosas del int opcion y metiendo try y catch">
+      <option name="closed" value="true" />
+      <created>1739835591279</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1739835591279</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,6 +497,12 @@
     <MESSAGE value="testeando Producto" />
     <MESSAGE value="modificando menu principal" />
     <MESSAGE value="modificando parametro opcuion en main y conversionUnidad" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificando parametro opcuion en main y conversionUnidad" />
+    <MESSAGE value="modificando cosas del int opcion y metiendo try y catch" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificando cosas del int opcion y metiendo try y catch" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Calculadora$MainMenu.ic" NAME="MainMenu Coverage Results" MODIFIED="1739830809161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>
