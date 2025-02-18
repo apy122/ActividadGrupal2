@@ -17,7 +17,6 @@ public class MainMenu {
     static Cociente cociente = new Cociente();
     Modulo modulo = new Modulo();
     public static ConversionUnidades conversionUnidades = new ConversionUnidades();
-    static Estadistica estadistica = new Estadistica();
     Trigonometria trigonometria = new Trigonometria();
     public static LogaritmosyExponenciales logaritmosyExponenciales= new LogaritmosyExponenciales();
 
@@ -69,7 +68,7 @@ public class MainMenu {
                             conversionUnidades.menu();
                             break;
                         case 7:
-                            /*estadistica.menu();*/
+                            Estadistica.menu();
                             break;
                         case 8:
                             /*trigonometria.menu();*/
