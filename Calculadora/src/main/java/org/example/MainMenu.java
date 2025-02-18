@@ -14,7 +14,7 @@ public class MainMenu {
     public static  Suma suma = new Suma();
     Resta  resta = new Resta();
     public static Producto producto = new Producto();
-    Cociente cociente = new Cociente();
+    static Cociente cociente = new Cociente();
     Modulo modulo = new Modulo();
     public static ConversionUnidades conversionUnidades = new ConversionUnidades();
     static Estadistica estadistica = new Estadistica();
@@ -60,7 +60,7 @@ public class MainMenu {
                             /*producto.menu();*/
                             break;
                         case 4:
-                            /*cociente.menu();*/
+                            cociente.menuCociente();
                             break;
                         case 5:
                             /*Modulo.modMenu();*/
