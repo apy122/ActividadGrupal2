@@ -1,2 +1,4 @@
 rootProject.name = 'Calculadora'
+include 'src:main:Docs'
+findProject(':src:main:Docs')?.name = 'Docs'
 
