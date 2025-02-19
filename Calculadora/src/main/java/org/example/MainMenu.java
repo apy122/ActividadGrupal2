@@ -62,7 +62,7 @@ public class MainMenu {
                             cociente.menuCociente();
                             break;
                         case 5:
-                            /*Modulo.modMenu();*/
+                            Modulo.modMenu();
                             break;
                         case 6:
                             conversionUnidades.menu();
