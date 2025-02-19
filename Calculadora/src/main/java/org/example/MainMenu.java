@@ -53,7 +53,7 @@ public class MainMenu {
                             Suma.pintarMenu();
                             break;
                         case 2:
-                            /*resta.menuResta();*/
+                            Resta.menuResta();
                             break;
                         case 3:
                             /*producto.menu();*/

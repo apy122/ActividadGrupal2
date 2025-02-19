@@ -121,6 +121,7 @@ public class Resta {
         /**Bucle de un do - while para poder realizar las restas de la opción
          * seleccionada.
          */
+
         do {
             System.out.println("Seleciona una opción para realizar una resta");
             System.out.println("1. Resta de dos números reales");
