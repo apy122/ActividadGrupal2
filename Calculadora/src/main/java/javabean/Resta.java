@@ -5,7 +5,7 @@ import java.util.Scanner;
 /** La clase Resta proporcionará métodos relacionados con las restas de una calculadora.
  *
  * @author Diego Sainz (aka diesainzg https://github.com/Diesainzg)
- * @version 1.5
+ * @version 1.8
  */
 
 public class Resta {
@@ -13,14 +13,14 @@ public class Resta {
     /**
      * Creamos una variable para poder guardar las restas acumuladas en la clase
      */
-    private int restaAcumulada;
+    private double restaAcumulada;
 
     /**
      * Constructor con el parámetro de restaAcumulada
      */
 
-    public Resta(int restaAcumulada) {
-        this.restaAcumulada = restaAcumulada;
+    public Resta(double restaAcumulada) {
+        this.restaAcumulada = 0;
     }
 
     /**
@@ -33,7 +33,8 @@ public class Resta {
     /**
      * Getters and setters
      */
-    public int getRestaAcumulada() {
+
+    public double getRestaAcumulada() {
         return restaAcumulada;
     }
 
@@ -90,17 +91,18 @@ public class Resta {
     /**
      * Resta con valor acumulado.
      *
-     * @param totalResta Parámetro de entrada.
+     * @param acumulaResta Parámetro de entrada.
+     * @throws IllegalArgumentException para parámetros negativos.
      * @throws IllegalArgumentException para parámetros negativos.
      */
-    public void acumulaResta(double totalResta) {
+    public void acumulaResta(double acumulaResta) {
         if(restaAcumulada < 0) {
             throw new IllegalArgumentException("La resta acumulada no puede ser negativa");
         }
-        if(totalResta < 0) {
+        if(acumulaResta < 0) {
             throw new IllegalArgumentException("El resultado total no puede ser negativo");
         }
-        restaAcumulada -= totalResta;
+        this.restaAcumulada -= acumulaResta;
     }
 
     /**
@@ -118,15 +120,14 @@ public class Resta {
         Resta resta = new Resta();
         int opcionResta;
 
-        /**Bucle de un do - while para poder realizar las restas de la opción
-         * seleccionada.
+        /**Bucle de un do - while para poder realizar las restas seleccionando cada opción.
          */
 
         do {
             System.out.println("Seleciona una opción para realizar una resta");
             System.out.println("1. Resta de dos números reales");
             System.out.println("2. Resta de dos números enteros");
-            System.out.println("3. Resta de tres números enteros");
+            System.out.println("3. Resta de tres números reales");
             System.out.println("4. Resta de números acumulados");
             System.out.println("5. Salir del menú Resta");
 
@@ -155,9 +156,12 @@ public class Resta {
                     break;
                 case 4:
                     System.out.println("Introduce los números que quieras restar");
-                    double restaAcumulada = leer.nextDouble();
-                    resta.acumulaResta(restaAcumulada);
+                    double acumulaResta = leer.nextDouble();
+                    resta.acumulaResta(acumulaResta);
                     System.out.println("La resta de todos los números acumulados es: " + resta.getRestaAcumulada());
+                    break;
+                default:
+                    System.out.println("Opción incorrecta. Inténtalo de nuevo");
                     break;
             }
 
