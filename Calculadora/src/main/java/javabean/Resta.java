@@ -110,7 +110,7 @@ public class Resta {
      * Se incluye también el objeto resta para poder realizar las operaciones.
      * Se crea también una variable int para poder seleccionar una opción del menú.
      */
-    public static void MenuResta() {
+    public static void menuResta() {
         Scanner leer = new Scanner(System.in);
         Resta resta = new Resta();
         int opcionResta;

@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Docs.iml" filepath="$PROJECT_DIR$/Docs.iml" />
     </modules>
   </component>
 </project>

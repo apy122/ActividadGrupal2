@@ -12,7 +12,7 @@ public class MainMenu {
     public static List<String> menuGeneral;
     public static Scanner sc = new Scanner( System.in );
     public static  Suma suma = new Suma();
-    Resta  resta = new Resta();
+    public static Resta  resta = new Resta();
     public static Producto producto = new Producto();
     static Cociente cociente = new Cociente();
     Modulo modulo = new Modulo();
@@ -54,7 +54,7 @@ public class MainMenu {
                             Suma.pintarMenu();
                             break;
                         case 2:
-                            /*resta.menuResta();*/
+                            resta.menuResta();
                             break;
                         case 3:
                             /*producto.menu();*/
