@@ -3,9 +3,10 @@
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../Calculadora/build/classes/java/main" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../Calculadora/src/main">
+    <content url="file://$MODULE_DIR$/../../Calculadora/src/main/java">
       <sourceFolder url="file://$MODULE_DIR$/../../Calculadora/src/main/java" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/../../Calculadora/src/main/resources" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
