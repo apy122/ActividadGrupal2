@@ -18,7 +18,8 @@ import java.util.Scanner;
  * system.out.println("La suma total de todos los números es igual a: " + sumaAcumulada(numeros));
  *}</pre>
  *
- * @author Lorena portatil (aka lorena.sanchez744@comunidadunir.net - https://github.com/LorenaSanchezErroz)
+ * @author Lorena portatil (aka lorena.sanchez744@comunidadunir.net)
+ * @see <a href="https://github.com/LorenaSanchezErroz">Mi repositorio GitHub</a>
  * @version 1.0
  */
 public class Suma {
@@ -161,8 +162,6 @@ public class Suma {
          * @return Salida de la suma.
          */
         while (opcion != 5);
-
-        leer.close();
     }
     /** Método pintarMenu para elegir la operación a realizar y que lleva al bucle do-while
      * para que se ejecute la suma elegida.

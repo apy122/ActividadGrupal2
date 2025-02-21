@@ -78,6 +78,8 @@ public class LogaritmosyExponenciales {
                         System.out.println("Programa finalizado");
                         continuar = false;
                         break;
+                    case '0':
+                        return;
                     default:
                         System.out.println("Opción no valida");
 
@@ -87,8 +89,6 @@ public class LogaritmosyExponenciales {
             }
 
         }while (continuar); // Sigue ejecutando el bucle hasta que el usuario pulse Salir.
-
-        sc.close();
 
         }
 

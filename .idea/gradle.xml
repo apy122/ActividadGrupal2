@@ -5,10 +5,12 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
-        <option name="gradleJvm" value="openjdk-23" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Calculadora" />
+            <option value="$PROJECT_DIR$/Calculadora/src" />
+            <option value="$PROJECT_DIR$/Calculadora/src/main" />
+            <option value="$PROJECT_DIR$/Calculadora/src/main/Docs" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="true" />

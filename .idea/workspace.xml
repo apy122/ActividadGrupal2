@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="JavaDoc corregido">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,16 +15,6 @@
     <projectState path="$PROJECT_DIR$/Calculadora">
       <ProjectState />
     </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$/Calculadora">
-          <activation />
-        </task>
-        <projects_view />
-      </state>
-    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,179 +61,11 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2skz8LpENnci9vzWCUOcjsa0L5V" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Estadistica.executor": "Run",
-    "Gradle.ConversionUnidadesTest.conversionCelsiusFahrenheit.executor": "Run",
-    "Gradle.EstadisticaTest.desviacionEstandar.executor": "Run",
-    "Gradle.EstadisticaTest.mediaAritmetica.executor": "Run",
-    "Gradle.EstadisticaTest.mediaAritmeticaCero.executor": "Run",
-    "Gradle.EstadisticaTest.mediaAritmeticaNegativos.executor": "Run",
-    "Gradle.EstadisticaTest.mediaAritmeticaPositivos.executor": "Run",
-    "Gradle.EstadisticaTest.mediaAritmeticaVacio.executor": "Run",
-    "Gradle.EstadisticaTest.menu.executor": "Run",
-    "Gradle.EstadisticaTest.varianza.executor": "Run",
-    "Gradle.LogaritmosyExponencialesTest.executor": "Run",
-    "Gradle.LogaritmosyExponencialesTest.logaritmoNatural.executor": "Run",
-    "Gradle.LogaritmosyExponencialesTest.setUp.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/DAM/0102_ED/Java_Workspace/AD2_Javadoc_JUnit/ActividadGrupal2/Calculadora/src/test/java/javabean",
-    "last_opened_file_path": "C:/DAM/0102_ED/Java_Workspace/AD2_Javadoc_JUnit/ActividadGrupal2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="javabean" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Gradle.EstadisticaTest.desviacionEstandar">
-    <configuration name="EstadisticaTest.desviacionEstandar" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;javabean.EstadisticaTest.desviacionEstandar&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="EstadisticaTest.mediaAritmeticaCero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;javabean.EstadisticaTest.mediaAritmeticaCero&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="EstadisticaTest.mediaAritmeticaNegativos" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;javabean.EstadisticaTest.mediaAritmeticaNegativos&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="EstadisticaTest.mediaAritmeticaVacio" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;javabean.EstadisticaTest.mediaAritmeticaVacio&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="EstadisticaTest.varianza" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Calculadora" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;javabean.EstadisticaTest.varianza&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,43 +75,12 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.EstadisticaTest.desviacionEstandar" />
-        <item itemvalue="Gradle.EstadisticaTest.varianza" />
-        <item itemvalue="Gradle.EstadisticaTest.mediaAritmeticaVacio" />
-        <item itemvalue="Gradle.EstadisticaTest.mediaAritmeticaCero" />
-        <item itemvalue="Gradle.EstadisticaTest.mediaAritmeticaNegativos" />
-      </list>
-    </recent_temporary>
+
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
-      </set>
-    </attachedChunks>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="" />
-      <created>1739014200011</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1739014200011</updated>
-      <workItem from="1739014201061" duration="125000" />
-      <workItem from="1739014372302" duration="428000" />
-      <workItem from="1739016233711" duration="252000" />
-      <workItem from="1739017130268" duration="7848000" />
-      <workItem from="1739263013563" duration="18605000" />
-      <workItem from="1739362014182" duration="121000" />
-      <workItem from="1739370610518" duration="696000" />
-      <workItem from="1739371811290" duration="617000" />
-      <workItem from="1739534179857" duration="5724000" />
-      <workItem from="1739550634290" duration="29000" />
-      <workItem from="1739553722200" duration="4167000" />
+
     </task>
     <task id="LOCAL-00001" summary="anadiendo paquete de testing">
       <option name="closed" value="true" />
@@ -358,15 +146,7 @@
       <option name="project" value="LOCAL" />
       <updated>1739289745476</updated>
     </task>
-    <task id="LOCAL-00009" summary="JavaDoc corregido">
-      <option name="closed" value="true" />
-      <created>1739290416475</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1739290416475</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,9 +167,6 @@
     <MESSAGE value="anadiendo paquete de testing" />
     <MESSAGE value="Estructura añadida de la clase Estadistica" />
     <MESSAGE value="Añadido JavaDoc en la clase Estadistica" />
-    <MESSAGE value="Añadido el menú, y corregidos los métodos" />
-    <MESSAGE value="Modifico el metodo 1 y añado un return 0 y un mensaje." />
-    <MESSAGE value="JavaDoc corregido" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaDoc corregido" />
+
   </component>
 </project>

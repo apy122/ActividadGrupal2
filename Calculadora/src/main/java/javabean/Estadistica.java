@@ -14,7 +14,7 @@ import java.util.Scanner;
  * }</pre>
  *
  * @author Lucía Ramírez Verdú (aka lucia.ramirez491@comunidadunir.net - lrv491)
- * @version 1.3
+ * @version 1.4
  */
 
 public class Estadistica {
@@ -81,13 +81,14 @@ public class Estadistica {
     private static double[] arrayNuevo(){
         System.out.println("¿Cuántos numeros quiere añadir?");
         int leer = sc.nextInt();
+        double num;
 
         double[] arrayNuevo = new double[leer];
 
-        for(double num : arrayNuevo){
-            System.out.println("Numero " + num + ": ");
-            leer = sc.nextInt();
-            arrayNuevo[leer] = num;
+        for(int i = 0; i < leer; i++){
+            System.out.println("Numero " + i + ": ");
+            num = sc.nextDouble();
+            arrayNuevo[i] = num;
         }
         return arrayNuevo;
     }
@@ -135,6 +136,5 @@ public class Estadistica {
             }
         }
         System.out.println();
-        sc.close();
     }
 }
