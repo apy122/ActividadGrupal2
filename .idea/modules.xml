@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/ActividadGrupal2.Calculadora.src.iml" filepath="$PROJECT_DIR$/.idea/modules/src/ActividadGrupal2.Calculadora.src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/main/ActividadGrupal2.Calculadora.src.main.iml" filepath="$PROJECT_DIR$/.idea/modules/src/main/ActividadGrupal2.Calculadora.src.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/Calculadora.src.iml" filepath="$PROJECT_DIR$/.idea/modules/src/Calculadora.src.iml" />
@@ -10,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/main/Docs/Calculadora.src.main.Docs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/src/main/Docs/Calculadora.src.main.Docs.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/main/Docs/Calculadora.src.main.Docs.test.iml" filepath="$PROJECT_DIR$/.idea/modules/src/main/Docs/Calculadora.src.main.Docs.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/main/Docs/org.example.Calculadora.src.main.Docs.iml" filepath="$PROJECT_DIR$/.idea/modules/src/main/Docs/org.example.Calculadora.src.main.Docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/main/Docs/org.example.Calculadora.src.main.Docs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/src/main/Docs/org.example.Calculadora.src.main.Docs.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/main/Docs/org.example.Calculadora.src.main.Docs.test.iml" filepath="$PROJECT_DIR$/.idea/modules/src/main/Docs/org.example.Calculadora.src.main.Docs.test.iml" />
     </modules>
   </component>
 </project>
