@@ -13,15 +13,17 @@ import java.util.Scanner;
  *  double valorAbs = Modulo.vAbsoluto(-3.5);  // Devuelve 3.5
  * }</pre>
  *
- * @author David Sánchez
- * @version 6.0
+ * @author David Sánchez (aka david-sanara)
+ * @see https://github.com/david-sanara
+ * @version 6.1
  *
- * V. 2 Corregida función "modulo", sustituyendo return por throw new en la excepción.
+ * V. 2. Corregida función "modulo", sustituyendo return por throw new en la excepción.
  * V. 3. Inserté static en las funciones "módulo" y "vAbsolut" para poder incluirla en el menú
  * V. 4. No logré usar la excepción. Modifico el mét_odo 1 y añado un return 0 y un mensaje.
  * V. 5. Tras trabajar con el compañero que me testea (Alessandro) vuelvo a usar
  *  ArithmeticException.
  * V. 6. He añadido try-catch para poder manejar ArithmeticException. Además, mejoro el JavaDoc.
+ * V. 6.1 Añadido perfil de GitHub
  */
 
 public class Modulo {
