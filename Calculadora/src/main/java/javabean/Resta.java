@@ -38,7 +38,7 @@ public class Resta {
         return restaAcumulada;
     }
 
-    public void setRestaAcumulada(int restaAcumulada) {
+    public void setRestaAcumulada(double restaAcumulada) {
         this.restaAcumulada = restaAcumulada;
     }
 
@@ -102,7 +102,11 @@ public class Resta {
         if(acumulaResta < 0) {
             throw new IllegalArgumentException("El resultado total no puede ser negativo");
         }
+        if (restaAcumulada == 0) {
+            restaAcumulada = acumulaResta;
+        } else {
         this.restaAcumulada -= acumulaResta;
+        }
     }
 
     /**
@@ -155,19 +159,28 @@ public class Resta {
                     System.out.println("El resultado de la resta es: " + resta.restaTresReal(restReal3, restReal4, restReal5));
                     break;
                 case 4:
-                    System.out.println("Introduce los números que quieras restar");
-                    double acumulaResta = leer.nextDouble();
-                    resta.acumulaResta(acumulaResta);
-                    System.out.println("La resta de todos los números acumulados es: " + resta.getRestaAcumulada());
+                    System.out.println("Introduce un primer número y posteriormente introduce otros para restarlos. " + "Pulsa 0 para terminar");
+                    boolean acumularRestas = true;
+                    while (acumularRestas) {
+                        double acumulaResta = leer.nextDouble();
+                        if (acumulaResta == 0) {
+                            acumularRestas = false;
+                        } else {
+                            resta.acumulaResta(acumulaResta);
+                            System.out.println("La resta de todos los números acumulados es: " + resta.getRestaAcumulada());
+                        }
+
+                    }
                     break;
                 default:
                     System.out.println("Opción incorrecta. Inténtalo de nuevo");
                     break;
             }
 
+
         }
         while (opcionResta != 5);
-    }
 
+    }
 }
 
