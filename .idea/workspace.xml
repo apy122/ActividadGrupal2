@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="Errores arreglados de la clase Resta.">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Suma.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/src/main/java/javabean/Suma.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="David" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,8 +40,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/apy122/ActividadGrupal2.git&quot;,
-    &quot;accountId&quot;: &quot;2b32d424-50a3-418f-b910-8220fabb6aa9&quot;
+    &quot;url&quot;: &quot;git@github.com:apy122/ActividadGrupal2.git&quot;,
+    &quot;accountId&quot;: &quot;2781fa7d-e3f8-4bef-9b4e-6f68ec5a623a&quot;
   },
   &quot;recentNewPullRequestHead&quot;: {
     &quot;server&quot;: {
@@ -69,28 +65,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Estadistica.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucia/IdeaProjects/JavaDocEj&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
-  <component name="RunManager">
+
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,30 +75,12 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
-      </set>
-    </attachedChunks>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="f38cec9e-848a-474c-b047-1ec2d03a23e7" name="Changes" comment="" />
-      <created>1739014200011</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1739014200011</updated>
-      <workItem from="1739014201061" duration="125000" />
-      <workItem from="1739014372302" duration="428000" />
-      <workItem from="1739016233711" duration="252000" />
-      <workItem from="1739017130268" duration="7848000" />
-      <workItem from="1739263069677" duration="193000" />
-      <workItem from="1739263270832" duration="2834000" />
-      <workItem from="1739267797191" duration="4856000" />
+
     </task>
     <task id="LOCAL-00001" summary="anadiendo paquete de testing">
       <option name="closed" value="true" />
@@ -173,23 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739023878838</updated>
     </task>
-    <task id="LOCAL-00007" summary="Añadidos métodos de la clase Resta.">
+    <task id="LOCAL-00007" summary="Añadido el menú, y corregidos los métodos">
       <option name="closed" value="true" />
-      <created>1739272087178</created>
+      <created>1739276659890</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1739272087178</updated>
+      <updated>1739276659890</updated>
     </task>
-    <task id="LOCAL-00008" summary="Añadido el menú de la clase Resta.">
+    <task id="LOCAL-00008" summary="Modifico el metodo 1 y añado un return 0 y un mensaje.">
       <option name="closed" value="true" />
-      <created>1739272128879</created>
+      <created>1739289745476</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1739272128879</updated>
+      <updated>1739289745476</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,8 +167,6 @@
     <MESSAGE value="anadiendo paquete de testing" />
     <MESSAGE value="Estructura añadida de la clase Estadistica" />
     <MESSAGE value="Añadido JavaDoc en la clase Estadistica" />
-    <MESSAGE value="Añadidos métodos de la clase Resta." />
-    <MESSAGE value="Añadido el menú de la clase Resta." />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido el menú de la clase Resta." />
+
   </component>
 </project>
