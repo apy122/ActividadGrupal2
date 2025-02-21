@@ -113,23 +113,15 @@ public class Trigonometria {
                 case 1:
                     System.out.println("Introduzca el angulo en radianes");
                     angulo = leer.nextDouble();
-                    try{
-                        System.out.println("El seno del angulo es : " + trigonometria.seno(angulo));
-                    } catch(ArithmeticException error){
-                        System.out.println("Error!" + error.getMessage());
-                    }
+                    System.out.println("El seno del angulo es : " + trigonometria.seno(angulo));
+
 
                     break;
 
                 case 2:
                     System.out.println("Introduzca el angulo en radianes");
                     angulo = leer.nextDouble();
-                    try{
-                        System.out.println("El coseno del angulo es : " + trigonometria.coseno(angulo));
-                    } catch(ArithmeticException error){
-                        System.out.println("Error!" + error.getMessage());
-                    }
-
+                    System.out.println("El coseno del angulo es : " + trigonometria.coseno(angulo));
                     break;
 
                 case 3:
