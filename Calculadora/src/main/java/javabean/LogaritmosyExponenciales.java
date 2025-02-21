@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * Esta clase proporciona funciones para calcular logaritmos y exponenciales
  * @author Aless-Mereu
+ *
  */
 public class LogaritmosyExponenciales {
 
@@ -92,8 +93,8 @@ public class LogaritmosyExponenciales {
         }
 
     }
-
-
+        // https://github.com/apy122/ActividadGrupal2.git
+        // https://github.com/Aless-Mereu
 
 
 
