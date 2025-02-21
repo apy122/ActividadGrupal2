@@ -58,7 +58,11 @@ public class Trigonometria {
      * Metodo para conseguir el coseno de un angulo
      */
 
-    public double seno(double angulo){
+    public double seno(double angulo)
+        throws ArithmeticException{
+            if(angulo<0){
+                throw new ArithmeticException("Error: El angulo no puede ser negativo.");
+            }
         return Math.sin(angulo);
     }
 
@@ -66,7 +70,11 @@ public class Trigonometria {
      * metodo para el coseno de un angulo
      */
 
-    public double coseno(double angulo){
+    public double coseno(double angulo)
+        throws ArithmeticException{
+            if(angulo<0){
+                throw new ArithmeticException("Error: El angulo no puede ser negativo.");
+            }
         return Math.cos(angulo);
     }
 
@@ -74,7 +82,16 @@ public class Trigonometria {
      * metodo para conseguir la tangente de un angulo
      */
 
-    public double tangente(double angulo){
+    public double tangente(double angulo)
+
+        throws ArithmeticException{
+            if(angulo<0){
+                throw new ArithmeticException("Error: El angulo no puede ser negativo.");
+            }
+            if(Math.cos(angulo)==0){
+                throw new ArithmeticException("Error: La tangente no puede ser 0 o indefinida.");
+            }
+
         return seno(angulo) / coseno(angulo);
     }
 
@@ -107,19 +124,42 @@ public class Trigonometria {
                 case 1:
                     System.out.println("Introduzca el angulo en radianes");
                     angulo = leer.nextDouble();
-                    System.out.println("El seno del angulo es : " + trigonometria.seno(angulo));
+                    try{
+                        System.out.println("El seno del angulo es : " + trigonometria.seno(angulo));
+                    } catch(ArithmeticException error){
+                        System.out.println("Error!" + error.getMessage());
+                    }
+
                     break;
 
                 case 2:
                     System.out.println("Introduzca el angulo en radianes");
                     angulo = leer.nextDouble();
-                    System.out.println("El coseno del angulo es : " + trigonometria.coseno(angulo));
+                    try{
+                        System.out.println("El coseno del angulo es : " + trigonometria.coseno(angulo));
+                    } catch(ArithmeticException error){
+                        System.out.println("Error!" + error.getMessage());
+                    }
+
                     break;
 
                 case 3:
                     System.out.println("Introduzca el angulo en radianes");
                     angulo = leer.nextDouble();
-                    System.out.println("La tangente del angulo es : " + trigonometria.tangente(angulo));
+                    try{
+                        System.out.println("La tangente del angulo es : " + trigonometria.tangente(angulo));
+                    } catch(ArithmeticException error){
+                        System.out.println("Error!" + error.getMessage());
+                    }
+
+                    break;
+
+                case 4:
+                    System.out.println("Refreso al menú principal");
+                    break;
+
+                default:
+                    System.out.println("Opcion incorrecta. Intentalo de nuevo.");
                     break;
 
 
@@ -128,7 +168,6 @@ public class Trigonometria {
         }
         while (opcionTrigonometria != 4);
 
-        leer.close();
 
     }
 }
