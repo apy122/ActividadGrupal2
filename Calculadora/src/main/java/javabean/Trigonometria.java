@@ -58,24 +58,16 @@ public class Trigonometria {
      * Metodo para conseguir el coseno de un angulo
      */
 
-    public double seno(double angulo)
-        throws ArithmeticException{
-            if(angulo<0){
-                throw new ArithmeticException("Error: El angulo no puede ser negativo.");
-            }
-        return Math.sin(angulo);
+    public double seno(double angulo){
+        return Math.sin(Math.toRadians(angulo));
     }
 
     /**
      * metodo para el coseno de un angulo
      */
 
-    public double coseno(double angulo)
-        throws ArithmeticException{
-            if(angulo<0){
-                throw new ArithmeticException("Error: El angulo no puede ser negativo.");
-            }
-        return Math.cos(angulo);
+    public double coseno(double angulo){
+        return Math.cos(Math.toRadians(angulo));
     }
 
     /**
@@ -85,14 +77,11 @@ public class Trigonometria {
     public double tangente(double angulo)
 
         throws ArithmeticException{
-            if(angulo<0){
-                throw new ArithmeticException("Error: El angulo no puede ser negativo.");
-            }
-            if(Math.cos(angulo)==0){
-                throw new ArithmeticException("Error: La tangente no puede ser 0 o indefinida.");
+            if(Math.abs(Math.cos(Math.toRadians(angulo))) < 1e-10){
+                throw new ArithmeticException("Error: La tangente es indefinida en 90º y 270º.");
             }
 
-        return seno(angulo) / coseno(angulo);
+        return Math.tan(Math.toRadians(angulo));
     }
 
     /**
