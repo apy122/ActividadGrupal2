@@ -14,10 +14,14 @@ import java.util.Scanner;
  * }</pre>
  *
  * @author Lucía Ramírez Verdú (aka lucia.ramirez491@comunidadunir.net - lrv491)
- * @version 1.4
+ * @version 1.5
+ * @see <a href="https://github.com/apy122/ActividadGrupal2">Repositorio de la Actividad 2</a>
  */
 
 public class Estadistica {
+    /**
+     * Variable scanner utilizada en la clase
+     */
     private static Scanner sc = new Scanner(System.in);
 
     /**
@@ -78,6 +82,11 @@ public class Estadistica {
         return Math.sqrt(varianza(numeros));
     }
 
+    /**
+     * Pide el array al usuario y devuelve ese array de double.
+     * Utilizado en menu()
+     * @return El array de double o números reales.
+     */
     private static double[] arrayNuevo(){
         System.out.println("¿Cuántos numeros quiere añadir?");
         int leer = sc.nextInt();
