@@ -20,7 +20,7 @@ import java.util.Scanner;
  *}</pre>
  *
  * @author Javier Calvo Hidalgo (aka javier.calvo962@comunidadunir.net - https://github.com/Jacahi10)
- * @version 1.2
+ * @version 1.3
  */
 public class Cociente {
 
