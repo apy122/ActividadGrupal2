@@ -15,7 +15,8 @@ import java.util.Scanner;
  *
  * @author David Sánchez (aka david-sanara)
  * @see <a href="https://github.com/david-sanara">Mi Repositorio de GitHub</a>
- * @version 6.2
+ * @see <a href="https://github.com/apy122/ActividadGrupal2">Repositorio compartido</a>
+ * @version 6.3
  *
  * V. 2. Corregida función "modulo", sustituyendo return por throw new en la excepción.
  * V. 3. Inserté static en las funciones "módulo" y "vAbsolut" para poder incluirla en el menú
@@ -25,6 +26,7 @@ import java.util.Scanner;
  * V. 6. He añadido try-catch para poder manejar ArithmeticException. Además, mejoro el JavaDoc.
  * V. 6.1 Añadido perfil de GitHub
  * V 6.2 Corregido enlace al repositorio de GitHub
+ * V 6.3 Añado enlace al repositorio compartido de GitHub donde está el proyecto
  */
 
 public class Modulo {
