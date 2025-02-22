@@ -20,12 +20,49 @@ import java.util.Scanner;
  *
  * @author Lorena portatil (aka lorena.sanchez744@comunidadunir.net)
  * @see <a href="https://github.com/LorenaSanchezErroz">Mi repositorio GitHub</a>
- * @version 1.0
+ * @version 1.1
+ *
+ * V 1.0 elaboración de la Clase Suma y menuSuma
+ * V 1.1 Creación de variables suma Acumulada para guardar las sumas acumuladas, con sus métodos inherentes.
+ * V 1.2 Cambios en el método sumaAcumulada.
+ * V 1.3. Cambios en menuSuma.
  */
 public class Suma {
 
     /**
+     * Creamos una variable para poder guardar las sumas acumuladas en la clase
+     */
+    private double sumaAcumulada;
+
+    /**
+     * Constructor con el parámetro de restaAcumulada
+     */
+
+    public Suma(double sumaAcumulada) {
+        this.sumaAcumulada = sumaAcumulada;
+    }
+
+    /**
+     * Constructor sin parámetros
+     */
+    public Suma() {
+    }
+
+    /**
+     * Getters and setters
+     */
+
+    public double getSumaAcumulada() {
+        return sumaAcumulada;
+    }
+
+    public void setSumaAcumulada(double sumaAcumulada) {
+        this.sumaAcumulada = sumaAcumulada;
+    }
+
+    /**
      * Suma de dos números enteros:
+     *
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
      * @return resultado de la suma de a + b.
@@ -36,6 +73,7 @@ public class Suma {
 
     /**
      * Suma de dos números reales:
+     *
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
      * @return resultado de la suma de a + b.
@@ -46,6 +84,7 @@ public class Suma {
 
     /**
      * Suma de tres números reales:
+     *
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
      * @param c Tercer parámetro de entrada.
@@ -57,22 +96,15 @@ public class Suma {
 
     /**
      * Suma con valor acumulado.
+     *
      * @param a parámetro de entrada
      * @return resultado de la suma de todos los números introducidos.
      */
-    public double sumaAcumulada(double a) {
-        double acumulada = a++;
-        return acumulada;
+    public void sumaAcumulada(double a) {
+        this.sumaAcumulada += a;
     }
 
-    /**Uso de la clase Scanner para que el usuario pueda introducir datos
-     * con los siguientes fines:
-     * - Elegir entre la operaciones que puede realizar.
-     * - Introducir números para realizar las sumas.
-     */
-    public static Scanner leer = new Scanner(System.in);
-
-    public static void MenuSuma(String[] args) {
+    public static void menuSuma() {
         /** Menú suma con cuatro opciones de suma y una de salida de la aplicación:
          * @param 1 parámetro de entrada para la suma de dos números enteros.
          *          @return opción suma de dos números enteros.
@@ -84,6 +116,13 @@ public class Suma {
          *          @return opción suma de números acumulados
          * @param 5 parámetro de entrada para salir del Menú Suma.
          */
+
+        /**Uso de la clase Scanner para que el usuario pueda introducir datos
+         * con los siguientes fines:
+         * - Elegir entre la operaciones que puede realizar.
+         * - Introducir números para realizar las sumas.
+         */
+        Scanner leer = new Scanner(System.in);
 
         /** Creación de objeto suma de la clase Suma para llevar
          a cabo los métodos.
@@ -97,9 +136,15 @@ public class Suma {
          * la operación elegida.
          */
         do {
-            /**Método pintarMenu, el cual está desarrollado después del do-while
-             para realizar la suma seleccionada, nos dirige al do-while.  */
-            opcion = pintarMenu();
+            /**Menu de opciones*/
+            System.out.print("Teclea una opción, por favor.");
+            System.out.println("\n1.- Suma de dos números enteros");
+            System.out.println("2.- Suma de dos números reales");
+            System.out.println("3.- Suma de tres números reales");
+            System.out.println("4.- Suma de números acumulados");
+            System.out.println("5.- Salir\n");
+
+            opcion = leer.nextInt();
 
             /**Alternativa switch con los siguientes casos para realizar los diferentes tipos de suma*/
 
@@ -127,7 +172,7 @@ public class Suma {
                     System.out.println("Introduce dos números reales, por favor");
                     double c = leer.nextDouble();
                     double d = leer.nextDouble();
-                    System.out.println("La suma de " + c + " y " + d + " es igual a: " + suma.sumaReal(c,d));
+                    System.out.println("La suma de " + c + " y " + d + " es igual a: " + suma.sumaReal(c, d));
                     break;
 
                 /** Opción 3.- Suma de tres números reales.
@@ -142,54 +187,34 @@ public class Suma {
                     double f = leer.nextDouble();
                     double g = leer.nextDouble();
                     System.out.println("La suma de " + e + ", " + f + " y " + g + " es igual a: "
-                            + suma.sumaTresReal(e,f,g));
+                            + suma.sumaTresReal(e, f, g));
                     break;
 
                 /** Opción 4.- Suma de números acumulados.
-                 * @param h parámetro de entrada
+                 * @param acumula parámetro de entrada
                  * @return resultado de la suma de todos los números introducidos.
                  */
                 case 4:
-                    System.out.println("Introduce los números que quieras sumar y pulsa " +
-                            "enter para saber el resultado de la suma de todos ellos, por favor.");
-                    double h = leer.nextDouble();
-                    System.out.println("La suma de todos los númeos introducidos es igual a: "
-                            + suma.sumaAcumulada(h));
+                    System.out.println("Introduce números para sumarlos (excepto el 0). " +
+                            "Para parar la suma y ver el resultado, pulsa 0");
+                    boolean acumularSumas = true;
+                    while (acumularSumas) {
+                        double acumula = leer.nextDouble();
+                        if (acumula == 0) {
+                            acumularSumas = false;
+                        } else {
+                            suma.sumaAcumulada(acumula);
+                            System.out.println("La suma de todos los números acumulados es: " + suma.getSumaAcumulada());
+                        }
+                }
                     break;
             }
         }
-        /** Opción 5.- Salida.
-         * @return Salida de la suma.
-         */
-        while (opcion != 5);
-    }
-    /** Método pintarMenu para elegir la operación a realizar y que lleva al bucle do-while
-     * para que se ejecute la suma elegida.
-     * @return información de opciones de suma a realizar y elegir una.
-     * @param opcion de entrada; el usuario teclea un número comprendido entre 1 y 5,
-     *               inclusive, para elegir la operación que desea realizar.
-     * @return tipo de suma elegida para operar.
-     */
-    public static int pintarMenu() {
-
-        int opcion = 0;
-
-        System.out.println("1.- Suma de dos números enteros");
-        System.out.println("2.- Suma de dos números reales");
-        System.out.println("3.- Suma de tres números reales");
-        System.out.println("4.- Suma de números acumulados");
-        System.out.println("5.- Salir");
-
-        System.out.print("Teclea una opcion, por favor.");
-
-        opcion = leer.nextInt();
-
-        while (opcion < 1 || opcion > 5) {
-            System.out.println("Opcion no válida. Números del 1 al 5");
-            opcion = leer.nextInt();
-            throw new IllegalArgumentException("el número no puede ser menor de 1 y mayor de 5");
-        }
-        return opcion;
+            /** Opción 5.- Salida.
+             * @return Salida de la suma.
+             */
+            while (opcion != 5) ;
     }
 
 }
+
