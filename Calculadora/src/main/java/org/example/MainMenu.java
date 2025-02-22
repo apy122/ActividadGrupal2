@@ -50,7 +50,7 @@ public class MainMenu {
                 else{
                     switch (opcion) {
                         case 1:
-                            Suma.pintarMenu();
+                            Suma.menuSuma();
                             break;
                         case 2:
                             Resta.menuResta();
