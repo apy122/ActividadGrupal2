@@ -56,7 +56,7 @@ public class SumaTest {
         assertEquals(-2, suma.sumaTresReal(4, -13, 7), "El resultado de la suma debe ser igual a -2");
     }
 
-    @Test
+    /*@Test
     void sumaAcumulada() {
         double A[] = {5, 3, 4};
         for (int i = 0; i > A.length; i++) {
@@ -72,6 +72,16 @@ public class SumaTest {
             suma.sumaAcumulada(B[i]);
             assertEquals(-5, suma.sumaAcumulada(B[i]), "El resultado de la suma debe ser igual a -5");
         }
+    }*/
+
+    @Test
+    void testSumaAcumulada() {
+        double C[] = {1,2,3,4,5,6,7,8,9};
+        for (int i = 0; i > C.length; i++) {
+            suma.getSumaAcumulada();
+            assertEquals(45, suma.getSumaAcumulada(), "El resultado de la suma debe ser igual a 45");
+        }
+
     }
 }
 
