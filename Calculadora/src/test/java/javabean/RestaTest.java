@@ -26,12 +26,12 @@ public class RestaTest {
 
     @Test
     public void restaRealPositivoNegativo() {
-        assertThrows(IllegalArgumentException.class, () -> Resta.restaReal(10.5,-5.0));
+        assertEquals(15.5, Resta.restaReal(10.5,-5.0),"El resultado debe ser 5.5");
     }
 
     @Test
     public void restaRealNegativoPositivo() {
-        assertThrows(IllegalArgumentException.class, () -> Resta.restaReal(-10.5,5.0));
+        assertEquals(-15.5, Resta.restaReal(-10.5,5.0),"El resultado debe ser -5.5");
     }
 
     @Test
@@ -47,12 +47,12 @@ public class RestaTest {
 
     @Test
     public void restaEnteroPositivoNegativo() {
-        assertThrows(IllegalArgumentException.class, () -> Resta.restaReal(10,-5));
+        assertEquals(15, Resta.restaEntero(10,-5),"El resultado debe ser 5");
     }
 
     @Test
     public void restaEnteroNegativoPositivo() {
-        assertThrows(IllegalArgumentException.class, () -> Resta.restaEntero(-10,5));
+        assertEquals(-15, Resta.restaEntero(-10,5),"El resultado debe ser 5");
     }
 
     @Test
@@ -62,7 +62,8 @@ public class RestaTest {
 
     @Test
     public void restaTresRealNegativoPositivoPositivo() {
-        assertThrows(IllegalArgumentException.class, () -> Resta.restaTresReal(-10.0,2.5,2.5));
+        assertEquals(-15.0,Resta.restaTresReal(-10.0,2.5,2.5),"El resultado debe ser 5");
+        //assertThrows(IllegalArgumentException.class, () -> Resta.restaTresReal(-10.0,2.5,2.5));
     }
 
 
@@ -73,7 +74,8 @@ public class RestaTest {
 
     @Test
     public void restaTresRealPositivoNegativoNegativo() {
-        assertThrows(IllegalArgumentException.class, () -> Resta.restaTresReal(10.0,-2.5,-2.5));
+        assertEquals(15.0,Resta.restaTresReal(10.0,-2.5,-2.5),"El resultado debe ser 5");
+        //assertThrows(IllegalArgumentException.class, () -> Resta.restaTresReal(10.0,-2.5,-2.5));
     }
 
     @Test
@@ -82,19 +84,38 @@ public class RestaTest {
     }
 
     @Test
-    public void restaAcumuladaPositivo() {
+    public void restaAcumuladaPositivoPositivo() {
+        resta.setRestaAcumulada(10);
         resta.acumulaResta(5);
         assertEquals(5,resta.getRestaAcumulada(), "El resultado debe ser 5");
     }
 
     @Test
-    public void restaAcumuladaNegativo() {
-        assertThrows(IllegalArgumentException.class, () -> resta.acumulaResta(-5));
+    public void restaAcumuladaPositivoNegativo() {
+        resta.setRestaAcumulada(10);
+        resta.acumulaResta(-5);
+        assertEquals(15,resta.getRestaAcumulada(), "El resultado debe ser 5");
     }
 
     @Test
-    public void restaAcumuladaNegativoAcumulada() {
-        resta.setRestaAcumulada(-1);
-        assertThrows(IllegalArgumentException.class, () -> resta.acumulaResta(5));
+    public void restaAcumuladaNegativoPositivo() {
+        resta.setRestaAcumulada(-10);
+        resta.acumulaResta(5);
+        assertEquals(-15,resta.getRestaAcumulada(), "El resultado debe ser -5");
+    }
+
+    @Test
+    public void restaAcumuladaNegativoNegativo() {
+        resta.setRestaAcumulada(-10);
+        resta.acumulaResta(-5);
+        assertEquals(-5,resta.getRestaAcumulada(), "El resultado debe ser 5");
+    }
+
+
+    @Test
+    public void restaAcumuladaCero() {
+        resta.setRestaAcumulada(0);
+        resta.acumulaResta(-5);
+        assertEquals(-5,resta.getRestaAcumulada(), "El resultado debe ser 5");
     }
 }
