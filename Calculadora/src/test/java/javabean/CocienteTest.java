@@ -29,8 +29,8 @@ public class CocienteTest {
 
     @Test
     void inverso() {
-        assertEquals(5, cociente.inverso(-5));
         assertEquals(-25.5, cociente.inverso(25.5));
+        assertThrows(IllegalArgumentException.class, () -> cociente.inverso(-5));
     }
 
     @Test

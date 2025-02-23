@@ -9,6 +9,7 @@ import java.util.Scanner;
  *
  * @author Mario Ortega Navarro (aka mortegaDAM@github.com)
  * @version 0.1
+ * @see <a href="https://github.com/apy122/ActividadGrupal2">Repositorio compartido</a>
  */
 
 public class Trigonometria {
