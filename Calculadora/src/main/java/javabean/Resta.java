@@ -5,7 +5,8 @@ import java.util.Scanner;
 /** La clase Resta proporcionará métodos relacionados con las restas de una calculadora.
  *
  * @author Diego Sainz (aka diesainzg https://github.com/Diesainzg)
- * @version 1.8
+ * @see <a href="https://github.com/apy122/ActividadGrupal2">Repositorio compartido</a>
+ * @version 2.0
  */
 
 public class Resta {
@@ -92,8 +93,8 @@ public class Resta {
      * Resta con valor acumulado.
      *
      * @param acumulaResta Parámetro de entrada.
-     * @throws IllegalArgumentException para parámetros negativos.
-     * @throws IllegalArgumentException para parámetros negativos.
+     * @throws IllegalArgumentException para resultados negativos.
+     * @throws IllegalArgumentException para resultados negativos.
      */
     public void acumulaResta(double acumulaResta) {
         if(restaAcumulada < 0) {
@@ -105,7 +106,7 @@ public class Resta {
         if (restaAcumulada == 0) {
             restaAcumulada = acumulaResta;
         } else {
-        this.restaAcumulada -= acumulaResta;
+            this.restaAcumulada -= acumulaResta;
         }
     }
 
@@ -169,18 +170,13 @@ public class Resta {
                             resta.acumulaResta(acumulaResta);
                             System.out.println("La resta de todos los números acumulados es: " + resta.getRestaAcumulada());
                         }
-
                     }
                     break;
                 default:
                     System.out.println("Opción incorrecta. Inténtalo de nuevo");
                     break;
             }
-
-
         }
         while (opcionResta != 5);
-
     }
 }
-
