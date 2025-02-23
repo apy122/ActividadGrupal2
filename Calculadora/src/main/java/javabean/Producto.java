@@ -113,6 +113,7 @@ public class Producto {
     /**Crea y muestra el menu*/
     public void menu(){
         int opcion;
+        boolean continuar = true;
         menu= Arrays.asList(
                 "1. Producto de numeros reales",
                 "2. Producto de numeros enteros",
@@ -156,12 +157,13 @@ public class Producto {
                     System.out.print( "El resultado es:"+" "+ potencia( num_A, num_B ));
                     break;
                 case 0:
+                    continuar = false;
                     break;
                 default:
                     throw new IllegalStateException("Unexpected value: " + opcion);
             }
 
-        }while(true);
+        }while(continuar);
     }
 
 
