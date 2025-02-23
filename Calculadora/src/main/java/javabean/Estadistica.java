@@ -13,7 +13,7 @@ import java.util.Scanner;
  *  System.out.println("La Desviación Estándar de los números es:" + Estadistica.desviacionEstandar(numeros));
  * }</pre>
  *
- * @author Lucía Ramírez Verdú (aka lucia.ramirez491@comunidadunir.net - lrv491)
+ * @author Lucía Ramírez Verdú
  * @version 1.5
  * @see <a href="https://github.com/apy122/ActividadGrupal2">Repositorio de la Actividad 2</a>
  */
