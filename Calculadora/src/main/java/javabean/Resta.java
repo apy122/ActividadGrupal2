@@ -48,13 +48,9 @@ public class Resta {
      *
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
-     * @throws IllegalArgumentException para parámetros negativos.
      * @return Resultado de la resta a - b.
      */
     public static double restaReal(double a, double b) {
-        if((a>0 && b<0) || (a<0 && b>0)) {
-            throw new IllegalArgumentException("El número no puede ser negativo");
-        }
         return a - b;
     }
 
@@ -63,13 +59,9 @@ public class Resta {
      *
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
-     * @throws IllegalArgumentException para parámetros negativos.
      * @return Resultado de la resta de a - b.
      */
     public static int restaEntero(int a, int b) {
-        if((a>0 && b<0) || (a<0 && b>0)) {
-            throw new IllegalArgumentException("El número no puede ser negativo");
-        }
         return a - b;
     }
 
@@ -79,30 +71,18 @@ public class Resta {
      * @param a Primer parámetro de entrada.
      * @param b Segundo parámetro de entrada.
      * @param c Tercer parámetro de entrada.
-     * @throws IllegalArgumentException para parámetros negativos.
      * @return Resultado de la resta de a - b - c.
      */
     public static double restaTresReal(double a, double b, double c) {
-        if((a<0 && b>0 && c>0) || (a>0 && b<0 && c<0)) {
-            throw new IllegalArgumentException("El número no puede ser negativo");
-        }
         return a - b - c;
     }
 
     /**
      * Resta con valor acumulado.
-     *
+     * Se incluye un if para que se pueda introducir un número inicial a la hora de hacer la resta acumulada.
      * @param acumulaResta Parámetro de entrada.
-     * @throws IllegalArgumentException para resultados negativos.
-     * @throws IllegalArgumentException para resultados negativos.
      */
     public void acumulaResta(double acumulaResta) {
-        if(restaAcumulada < 0) {
-            throw new IllegalArgumentException("La resta acumulada no puede ser negativa");
-        }
-        if(acumulaResta < 0) {
-            throw new IllegalArgumentException("El resultado total no puede ser negativo");
-        }
         if (restaAcumulada == 0) {
             restaAcumulada = acumulaResta;
         } else {
@@ -136,45 +116,56 @@ public class Resta {
             System.out.println("4. Resta de números acumulados");
             System.out.println("5. Salir del menú Resta");
 
-            opcionResta = leer.nextInt();
+            try {
+                opcionResta = leer.nextInt();
 
-            switch (opcionResta) {
+                switch (opcionResta) {
 
-                case 1:
-                    System.out.println("Introduce dos números reales para realizar la resta: ");
-                    double restReal1 = leer.nextDouble();
-                    double restReal2 = leer.nextDouble();
-                    System.out.println("El resultado de la resta es: " + resta.restaReal(restReal1, restReal2));
-                    break;
-                case 2:
-                    System.out.println("Introduce dos números enteros para realizar la resta");
-                    int restEntero1 = leer.nextInt();
-                    int restEntero2 = leer.nextInt();
-                    System.out.println("El resultado de la resta es: " + resta.restaEntero(restEntero1, restEntero2));
-                    break;
-                case 3:
-                    System.out.println("Introduce tres números reales para realizar la resta");
-                    double restReal3 = leer.nextDouble();
-                    double restReal4 = leer.nextDouble();
-                    double restReal5 = leer.nextDouble();
-                    System.out.println("El resultado de la resta es: " + resta.restaTresReal(restReal3, restReal4, restReal5));
-                    break;
-                case 4:
-                    System.out.println("Introduce un primer número y posteriormente introduce otros para restarlos. " + "Pulsa 0 para terminar");
-                    boolean acumularRestas = true;
-                    while (acumularRestas) {
-                        double acumulaResta = leer.nextDouble();
-                        if (acumulaResta == 0) {
-                            acumularRestas = false;
-                        } else {
-                            resta.acumulaResta(acumulaResta);
-                            System.out.println("La resta de todos los números acumulados es: " + resta.getRestaAcumulada());
+                    case 1:
+                        System.out.println("Introduce dos números reales para realizar la resta: ");
+                        double restReal1 = leer.nextDouble();
+                        double restReal2 = leer.nextDouble();
+                        System.out.println("El resultado de la resta es: " + resta.restaReal(restReal1, restReal2));
+                        break;
+                    case 2:
+                        System.out.println("Introduce dos números enteros para realizar la resta");
+                        int restEntero1 = leer.nextInt();
+                        int restEntero2 = leer.nextInt();
+                        System.out.println("El resultado de la resta es: " + resta.restaEntero(restEntero1, restEntero2));
+                        break;
+                    case 3:
+                        System.out.println("Introduce tres números reales para realizar la resta");
+                        double restReal3 = leer.nextDouble();
+                        double restReal4 = leer.nextDouble();
+                        double restReal5 = leer.nextDouble();
+                        System.out.println("El resultado de la resta es: " + resta.restaTresReal(restReal3, restReal4, restReal5));
+                        break;
+                    case 4:
+                        System.out.println("Introduce un primer número y posteriormente introduce otros para restarlos. " + "Pulsa 0 para terminar");
+                        boolean acumularRestas = true;
+                        while (acumularRestas) {
+                        try {
+                            double acumulaResta = leer.nextDouble();
+                            if (acumulaResta == 0) {
+                                acumularRestas = false;
+                            } else {
+                                resta.acumulaResta(acumulaResta);
+                                System.out.println("La resta de todos los números acumulados es: " + resta.getRestaAcumulada());
+                            }
+                        } catch (Exception e) {
+                            System.out.println("Error: Introduce un número válido");
+                            leer.next();
                         }
-                    }
-                    break;
-                default:
-                    System.out.println("Opción incorrecta. Inténtalo de nuevo");
-                    break;
+                        }
+                        break;
+                    default:
+                        System.out.println("Opción incorrecta. Inténtalo de nuevo");
+                        break;
+                }
+        } catch (Exception e) {
+            System.out.println("Error: Introduce un número válido");
+            leer.next();
+            opcionResta = 0;
             }
         }
         while (opcionResta != 5);
