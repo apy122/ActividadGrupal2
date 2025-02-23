@@ -56,7 +56,7 @@ public class MainMenu {
                             Resta.menuResta();
                             break;
                         case 3:
-                            /*producto.menu();*/
+                            producto.menu();
                             break;
                         case 4:
                             cociente.menuCociente();
