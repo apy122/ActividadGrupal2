@@ -71,7 +71,7 @@ public class MainMenu {
                             Estadistica.menu();
                             break;
                         case 8:
-                            /*trigonometria.menu();*/
+                            Trigonometria.menuTrigonometria();
                             break;
                         case 9:
                             logaritmosyExponenciales.menu();
