@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
+    <list default="true" id="bfb779d0-c650-4246-88f1-74582c598fa3" name="Changes" comment="UPDATE: workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculadora/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Calculadora/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,18 +21,10 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="package-info" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="David" />
+        <entry key="$PROJECT_DIR$" value="Lucia" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,118 +32,69 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;apy122&quot;
+    &quot;assignee&quot;: &quot;lrv491&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;git@github.com:apy122/ActividadGrupal2.git&quot;,
-    &quot;accountId&quot;: &quot;2781fa7d-e3f8-4bef-9b4e-6f68ec5a623a&quot;
-  },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
-    },
-    &quot;owner&quot;: &quot;apy122&quot;,
-    &quot;repository&quot;: &quot;ActividadGrupal2&quot;
+    &quot;accountId&quot;: &quot;31c33509-6213-4a4c-b3f4-96d600b381a3&quot;
   }
 }</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2skz8LpENnci9vzWCUOcjsa0L5V" />
+  <component name="ProjectId" id="2tU6etBYuOV1XPi8Ai5KlNlVggM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainMenu.executor": "Run",
+    "Gradle.Calculadora [:org.example.MainMenu.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "external.system.has.shared.sources": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/lucia/IdeaProjects/prueba",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfb779d0-c650-4246-88f1-74582c598fa3" name="Changes" comment="" />
+      <created>1740394405312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740394405312</updated>
+      <workItem from="1740394406956" duration="660000" />
+      <workItem from="1740395092895" duration="602000" />
+      <workItem from="1740395709390" duration="186000" />
+      <workItem from="1740395916597" duration="131000" />
+      <workItem from="1740396070806" duration="136000" />
+      <workItem from="1740396217734" duration="149000" />
+      <workItem from="1740396376054" duration="34000" />
+      <workItem from="1740396428783" duration="657000" />
+      <workItem from="1740397136176" duration="295000" />
+      <workItem from="1740397445543" duration="1053000" />
     </task>
-    <task id="LOCAL-00001" summary="anadiendo paquete de testing">
-      <option name="closed" value="true" />
-      <created>1739014282479</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1739014282479</updated>
-    </task>
-    <task id="LOCAL-00002" summary="anadiendo paquete de testing">
-      <option name="closed" value="true" />
-      <created>1739014318946</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1739014318946</updated>
-    </task>
-    <task id="LOCAL-00003" summary="anadiendo paquete de testing">
-      <option name="closed" value="true" />
-      <created>1739014384978</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1739014384978</updated>
-    </task>
-    <task id="LOCAL-00004" summary="anadiendo paquete de testing">
-      <option name="closed" value="true" />
-      <created>1739014745851</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1739014745851</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Estructura añadida de la clase Estadistica">
-      <option name="closed" value="true" />
-      <created>1739021911480</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1739021911480</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Añadido JavaDoc en la clase Estadistica">
-      <option name="closed" value="true" />
-      <created>1739023878838</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1739023878838</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Añadido el menú, y corregidos los métodos">
-      <option name="closed" value="true" />
-      <created>1739276659890</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1739276659890</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Modifico el metodo 1 y añado un return 0 y un mensaje.">
-      <option name="closed" value="true" />
-      <created>1739289745476</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1739289745476</updated>
-    </task>
-
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,11 +110,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="anadiendo paquete de testing" />
-    <MESSAGE value="Estructura añadida de la clase Estadistica" />
-    <MESSAGE value="Añadido JavaDoc en la clase Estadistica" />
-
   </component>
 </project>

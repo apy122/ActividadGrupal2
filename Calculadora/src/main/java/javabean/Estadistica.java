@@ -14,7 +14,7 @@ import java.util.Scanner;
  * }</pre>
  *
  * @author Lucía Ramírez Verdú (aka lucia.ramirez491@comunidadunir.net - lrv491)
- * @version 1.5
+ * @version 1.6
  * @see <a href="https://github.com/apy122/ActividadGrupal2">Repositorio de la Actividad 2</a>
  *
  * V.1.0 - Subir el documento nuevo
