@@ -17,6 +17,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Calculadora.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/main/Docs/org.example.Calculadora.src.main.Docs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/src/main/Docs/org.example.Calculadora.src.main.Docs.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/main/Docs/org.example.Calculadora.src.main.Docs.test.iml" filepath="$PROJECT_DIR$/.idea/modules/src/main/Docs/org.example.Calculadora.src.main.Docs.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/proyectos.ActividadGrupal2.Calculadora.src.iml" filepath="$PROJECT_DIR$/.idea/modules/src/proyectos.ActividadGrupal2.Calculadora.src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/main/proyectos.ActividadGrupal2.Calculadora.src.main.iml" filepath="$PROJECT_DIR$/.idea/modules/src/main/proyectos.ActividadGrupal2.Calculadora.src.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/main/Docs/proyectos.ActividadGrupal2.Calculadora.src.main.Docs.iml" filepath="$PROJECT_DIR$/.idea/modules/src/main/Docs/proyectos.ActividadGrupal2.Calculadora.src.main.Docs.iml" />
     </modules>
   </component>
 </project>
