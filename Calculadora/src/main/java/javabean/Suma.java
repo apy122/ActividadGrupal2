@@ -20,9 +20,9 @@ import java.util.Scanner;
  *
  * @author Lorena portatil (aka lorena.sanchez744@comunidadunir.net)
  * @see <a href="https://github.com/LorenaSanchezErroz">Mi repositorio GitHub</a>
- * @version 1.1
+ * @version 1.3
  *
- * V 1.0 elaboración de la Clase Suma y menuSuma
+ * V 1.0 Elaboración de la Clase Suma y menuSuma
  * V 1.1 Creación de variables suma Acumulada para guardar las sumas acumuladas, con sus métodos inherentes.
  * V 1.2 Cambios en el método sumaAcumulada.
  * V 1.3. Cambios en menuSuma.
