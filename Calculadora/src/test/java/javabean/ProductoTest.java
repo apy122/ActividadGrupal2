@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+/**@author Alvaro P'erez Yuguero (aka alvaro.perez532@comunidadunir.net - apy122/alvaro)*/
 public class ProductoTest {
     Producto producto;
 

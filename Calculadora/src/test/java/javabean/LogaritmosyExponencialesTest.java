@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-
+/**@author Alvaro P'erez Yuguero (aka alvaro.perez532@comunidadunir.net - apy122/alvaro)*/
 class LogaritmosyExponencialesTest {
     public static LogaritmosyExponenciales log1;
 
