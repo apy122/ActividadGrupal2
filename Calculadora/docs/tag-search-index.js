@@ -1,0 +1,1 @@
+tagSearchIndex = [{"l":"Ejemplo de uso","h":"class javabean.Modulo","d":"Section","u":"javabean/Modulo.html#ejemplo-de-uso-heading"}];updateSearchResults();
