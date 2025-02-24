@@ -16,6 +16,14 @@ import java.util.Scanner;
  * @author Lucía Ramírez Verdú (aka lucia.ramirez491@comunidadunir.net - lrv491)
  * @version 1.5
  * @see <a href="https://github.com/apy122/ActividadGrupal2">Repositorio de la Actividad 2</a>
+ *
+ * V.1.0 - Subir el documento nuevo
+ * V.1.1 - Añadido el usuario de GitHub en author - lrv491
+ * V.1.2 - Cambiado nombre de la función main() a menu()
+ * V.1.3 - Añadido parámetro de array en mediaAritmética()
+ * V.1.4 - Cambiado el for de la función propia de arrayNuevo()
+ * V.1.5 - Añadido see y añadido más javaDoc
+ * V.1.6 - Añadido descripción de versiones
  */
 
 public class Estadistica {

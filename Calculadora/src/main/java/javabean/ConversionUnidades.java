@@ -8,7 +8,7 @@ import java.util.Scanner;
 /**
  * Esta clase es un conversor de unidades.
  * @author Alvaro P'erez Yuguero (aka alvaro.perez532@comunidadunir.net - apy122/alvaro)
- * @version 1.0
+ * @version 1.86
  **/
 public class ConversionUnidades {
     private List<String> menu;

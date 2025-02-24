@@ -6,7 +6,13 @@ import java.util.Scanner;
  *
  * @author Diego Sainz (aka diesainzg https://github.com/Diesainzg)
  * @see <a href="https://github.com/apy122/ActividadGrupal2">Repositorio compartido</a>
- * @version 2.0
+ * @version 1.1 Cambios en el JavaDoc
+ * @version 1.2 Cambios en métodos
+ * @version 1.3 Cambios en excepciones
+ * @version 1.4 Cambios en los acumuladores de las restas
+ * @version 1.5 Mejoras del menú para evitar errores
+ * @version 1.6 Actualizada la clase para eliminar errores con excepciones
+ * @version 2.0 Actualizado JavaDoc con la información faltante
  */
 
 public class Resta {
