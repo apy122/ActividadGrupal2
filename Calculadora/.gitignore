@@ -46,3 +46,4 @@ src/main/Docs/build/
 ../.idea/
 ../*.iml
 ../workspace.xml
+*.xml
